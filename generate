@@ -317,4 +317,258 @@ d[K
 [1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
 ╰─[1m$[0m [K[?1h=vvim Procfile[1m [0m[0m [?1l>
 ]2;vim Procfile]1;vim[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"Procfile" 1L, 40C[>c[1;1Hweb: bundle exec puma -C config/puma.rb
-[1m[34m~                                                                                                                                                                        [3;1H~                                                                                                                                                                        [4;1H~                                                                                                                                                                        [5;1H~                                                                                                                                                                        [6;1H~                                                                                                                                                                        [7;1H~                                                                                                                                                                        [8;1H~                                                                                                                                                                        [9;1H~                                                                                                                                                                        [10;1H~                                                                                                                                                                        [11;1H~                                                                                                                                                                        [12;1H~                                                                                                                                                                        [13;1H~                                                                                                                                                                        [14;1H~                                                                                                                                                                        [15;1H~                                                                                                                                                                        [16;1H~                                                                                                                                                                        [17;1H~                                                                                                                                                                        [18;1H~                                                                                                                                                                        [19;1H~                                                                                                                                                                        [20;1H~                                                                                                                                                                        [21;1H~                                                                                                                                                                        [22;1H~                                                                                                                                                                        [23;1H~                                                                                                                                                                        [24;1H~                                                                                                                                                                        [25;1H~                                                                                                                                                                        [26;1H~                                                                                                                                                                        [27;1H~                                                                                                                                                                        [28;1H~                                                                                                                                                                        [29;1H~                                                                                                                                                                        [30;1H~                                                                                                                                                                        [31;1H~                                                                                                                                                                        [32;1H~                                                                                                                                                                        [33;1H~                                                                                                                                                                        [34;1H~                                                                                                                                                                        [35;1H~                                                                                                                                                                        [36;1H~                                                                                                                                                                        [37;1H~                                                                                                                                                                        [38;1H~                                                                                                                                                                        [39;1H~                                                                                                                                                                        [m[40;152H1,1[11CAll[1;1H[?12l[?25h
+[1m[34m~                                                                                                                                                                        [3;1H~                                                                                                                                                                        [4;1H~                                                                                                                                                                        [5;1H~                                                                                                                                                                        [6;1H~                                                                                                                                                                        [7;1H~                                                                                                                                                                        [8;1H~                                                                                                                                                                        [9;1H~                                                                                                                                                                        [10;1H~                                                                                                                                                                        [11;1H~                                                                                                                                                                        [12;1H~                                                                                                                                                                        [13;1H~                                                                                                                                                                        [14;1H~                                                                                                                                                                        [15;1H~                                                                                                                                                                        [16;1H~                                                                                                                                                                        [17;1H~                                                                                                                                                                        [18;1H~                                                                                                                                                                        [19;1H~                                                                                                                                                                        [20;1H~                                                                                                                                                                        [21;1H~                                                                                                                                                                        [22;1H~                                                                                                                                                                        [23;1H~                                                                                                                                                                        [24;1H~                                                                                                                                                                        [25;1H~                                                                                                                                                                        [26;1H~                                                                                                                                                                        [27;1H~                                                                                                                                                                        [28;1H~                                                                                                                                                                        [29;1H~                                                                                                                                                                        [30;1H~                                                                                                                                                                        [31;1H~                                                                                                                                                                        [32;1H~                                                                                                                                                                        [33;1H~                                                                                                                                                                        [34;1H~                                                                                                                                                                        [35;1H~                                                                                                                                                                        [36;1H~                                                                                                                                                                        [37;1H~                                                                                                                                                                        [38;1H~                                                                                                                                                                        [39;1H~                                                                                                                                                                        [m[40;152H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[40;1H[K[40;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=ccd c  vim Procfile[12Dls          [10Decho "web: bundle exec puma -C config/puma.rb" >> Procfile[13D             
+d[K
+"[K[A[A[48C[45Dvim Procfile                                 [1B[K[1B[K[A[A[16C[12Dls          [10Dheroku open[11Dgit push heroku master[22Dheroku create         [9D[13Dgit commit -m "initial with postgres"" " " " " " " " " " " " " " " " " " " " " c"r"e"a"t"e"d" "P"r"o"c"f"i"l"e"[?1l>[1B]2;git commit -m "created Procfile"]1;gitOn branch master
+Changes not staged for commit:
+	[31mmodified:   generate[m
+
+Untracked files:
+	[31mProcfile[m
+
+no changes added to commit
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[161C[31m1 ↵[00m[164D[?1h=ggir t add .[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=git add .commit -m "created Procfile"[?1l>
+]2;git commit -m "created Procfile"]1;git[master 21de9f8] created Procfile
+ 2 files changed, 251 insertions(+), 1 deletion(-)
+ create mode 100644 Procfile
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master› [00m[00m
+╰─[1m$[0m [K[?1h=ggit push[1m [0m[0m heroku master[?1l>
+]2;git push heroku master]1;gitCounting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 6.96 KiB | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Using set buildpack heroku/ruby[K
+remote: -----> Ruby app detected[K
+remote: -----> Compiling Ruby/Rails[K
+remote: -----> Using Ruby version: ruby-2.0.0[K
+remote: -----> Installing dependencies using bundler 1.9.7[K
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment[K
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.[K
+remote:        Using rake 10.4.2[K
+remote:        Using i18n 0.7.0[K
+remote:        Using json 1.8.3[K
+remote:        Using minitest 5.8.3[K
+remote:        Using thread_safe 0.3.5[K
+remote:        Using tzinfo 1.2.2[K
+remote:        Using activesupport 4.2.3[K
+remote:        Using builder 3.2.2[K
+remote:        Using erubis 2.7.0[K
+remote:        Using mini_portile2 2.0.0[K
+remote:        Using nokogiri 1.6.7.1[K
+remote:        Using rails-deprecated_sanitizer 1.0.3[K
+remote:        Using rails-dom-testing 1.0.7[K
+remote:        Using loofah 2.0.3[K
+remote:        Using rails-html-sanitizer 1.0.2[K
+remote:        Using actionview 4.2.3[K
+remote:        Using rack 1.6.4[K
+remote:        Using rack-test 0.6.3[K
+remote:        Using actionpack 4.2.3[K
+remote:        Using globalid 0.3.6[K
+remote:        Using activejob 4.2.3[K
+remote:        Using mime-types 2.99[K
+remote:        Using mail 2.6.3[K
+remote:        Using actionmailer 4.2.3[K
+remote:        Using activemodel 4.2.3[K
+remote:        Using arel 6.0.3[K
+remote:        Using activerecord 4.2.3[K
+remote:        Using coffee-script-source 1.10.0[K
+remote:        Using execjs 2.6.0[K
+remote:        Using coffee-script 2.4.1[K
+remote:        Using thor 0.19.1[K
+remote:        Using railties 4.2.3[K
+remote:        Using coffee-rails 4.1.1[K
+remote:        Using concurrent-ruby 1.0.0[K
+remote:        Using multi_json 1.11.2[K
+remote:        Using jbuilder 2.3.2[K
+remote:        Using jquery-rails 4.0.5[K
+remote:        Using nifty-generators 0.4.6[K
+remote:        Using pg 0.18.4[K
+remote:        Using bundler 1.9.7[K
+remote:        Using sprockets 3.5.2[K
+remote:        Using sprockets-rails 3.0.0[K
+remote:        Using rails 4.2.3[K
+remote:        Using rdoc 4.2.1[K
+remote:        Using sass 3.4.20[K
+remote:        Using tilt 2.0.1[K
+remote:        Using sass-rails 5.0.4[K
+remote:        Using sdoc 0.4.1[K
+remote:        Using turbolinks 2.5.3[K
+remote:        Using uglifier 2.7.2[K
+remote:        Bundle complete! 13 Gemfile dependencies, 50 gems now installed.[K
+remote:        Gems in the groups development and test were not installed.[K
+remote:        Bundled gems are installed into ./vendor/bundle.[K
+remote:        Bundle completed (0.31s)[K
+remote:        Cleaning up the bundler cache.[K
+remote: -----> Preparing app for Rails asset pipeline[K
+remote:        Running: rake assets:precompile[K
+remote:        Asset precompilation completed (3.98s)[K
+remote:        Cleaning assets[K
+remote:        Running: rake assets:clean[K
+remote: 
+remote: ###### WARNING:[K
+remote:        Include 'rails_12factor' gem to enable all platform features[K
+remote:        See https://devcenter.heroku.com/articles/rails-integration-gems for more information.[K
+remote: 
+remote: ###### WARNING:[K
+remote:        You have not declared a Ruby version in your Gemfile.[K
+remote:        To set your Ruby version add this line to your Gemfile:[K
+remote:        ruby '2.0.0'[K
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.[K
+remote: 
+remote: 
+remote: -----> Discovering process types[K
+remote:        Procfile declares types     -> web[K
+remote:        Default types for buildpack -> console, rake, worker[K
+remote: 
+remote: -----> Compressing... done, 28.1MB[K
+remote: -----> Launching... done, v6[K
+remote:        https://murmuring-earth-3019.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy.... done.[K
+To https://git.heroku.com/murmuring-earth-3019.git
+   d8fa1b9..21de9f8  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=git push heroku master[18Dcommit -m "crea[2Cd Procfile"[28Dadd .                       [23Dcommit -m "created Procfile"[32Dvim[19P[9C                    [20D[12Dgit commit -m "created Procfile"[32Dvim[19P[9C                    [20D[12Dls          [10Decho "web: bundle exec puma -C config/puma.rb" >> Procfile[13D             
+d[K
+"[K[A[A[48C                                     e  d[1B[M[A[4C "[1B[K[A[4C hheroku[1m [0m[0m open[?1l>[1B]2;heroku open]1;herokuOpening murmuring-earth-3019... done
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=Gtk-Message: Failed to load module "pantheon-filechooser-module"
+[24683:24683:1225/110301:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24683:24683:1225/110301:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24683:24683:1225/110301:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24683:24683:1225/110301:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24683:24683:1225/110301:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Created new window in existing browser session.
+hheroku logs --tail[?1l>
+]2;heroku logs --tail]1;heroku[36m2015-12-25T05:58:08.790771+00:00 heroku[api]:[0m Enable Logplex by prandtl211@gmail.com
+[36m2015-12-25T05:58:08.790771+00:00 heroku[api]:[0m Release v2 created by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.091207+00:00 heroku[api]:[0m Set LANG, RAILS_ENV, RACK_ENV, SECRET_KEY_BASE, RAILS_SERVE_STATIC_FILES config vars by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.091207+00:00 heroku[api]:[0m Release v3 created by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.575563+00:00 heroku[api]:[0m Attach DATABASE resource by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.575563+00:00 heroku[api]:[0m Release v4 created by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.947657+00:00 heroku[api]:[0m Scale to web=1 by prandtl211@gmail.com
+[36m2015-12-25T05:59:36.038584+00:00 heroku[api]:[0m Deploy d8fa1b9 by prandtl211@gmail.com
+[36m2015-12-25T05:59:36.038584+00:00 heroku[api]:[0m Release v5 created by prandtl211@gmail.com
+[33m2015-12-25T05:59:36.349470+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T05:59:36.349479+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[32m2015-12-25T05:59:37.785412+00:00 heroku[web.1]:[0m Starting process with command `bin/rails server -p 3415 -e production`
+[32m2015-12-25T05:59:40.507137+00:00 heroku[web.1]:[0m State changed from starting to up
+[32m2015-12-25T05:59:40.441546+00:00 app[web.1]:[0m [2015-12-25 05:59:40] INFO  WEBrick 1.3.1
+[32m2015-12-25T05:59:40.441574+00:00 app[web.1]:[0m [2015-12-25 05:59:40] INFO  ruby 2.0.0 (2015-12-16) [x86_64-linux]
+[32m2015-12-25T05:59:40.441926+00:00 app[web.1]:[0m [2015-12-25 05:59:40] INFO  WEBrick::HTTPServer#start: pid=3 port=3415
+[35m2015-12-25T05:59:44.518321+00:00 heroku[router]:[0m at=info method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=d959d518-285e-4229-9108-959a75679165 fwd="212.193.78.147" dyno=web.1 connect=1ms service=201ms status=404 bytes=1829
+[35m2015-12-25T05:59:44.787260+00:00 heroku[router]:[0m at=info method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=4cc97cc9-fca7-41e3-8849-47b359cd127d fwd="212.193.78.147" dyno=web.1 connect=0ms service=3ms status=200 bytes=228
+[36m2015-12-25T06:02:36.485119+00:00 heroku[api]:[0m Deploy 21de9f8 by prandtl211@gmail.com
+[36m2015-12-25T06:02:36.485155+00:00 heroku[api]:[0m Release v6 created by prandtl211@gmail.com
+[33m2015-12-25T06:02:36.602434+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T06:02:36.602444+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[32m2015-12-25T06:02:36.594702+00:00 heroku[web.1]:[0m State changed from up to starting
+[32m2015-12-25T06:02:37.788312+00:00 heroku[web.1]:[0m Stopping all processes with SIGTERM
+[32m2015-12-25T06:02:38.063286+00:00 app[web.1]:[0m [2015-12-25 06:02:38] FATAL SignalException: SIGTERM
+[32m2015-12-25T06:02:38.063290+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+[32m2015-12-25T06:02:38.063293+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+[32m2015-12-25T06:02:38.063293+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+[32m2015-12-25T06:02:38.063294+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+[32m2015-12-25T06:02:38.063295+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+[32m2015-12-25T06:02:38.063323+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:75:in `server'
+[32m2015-12-25T06:02:38.063324+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+[32m2015-12-25T06:02:38.063325+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands.rb:17:in `<top (required)>'
+[32m2015-12-25T06:02:38.063326+00:00 app[web.1]:[0m 	bin/rails:9:in `<main>'
+[32m2015-12-25T06:02:38.063295+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'
+[32m2015-12-25T06:02:38.063371+00:00 app[web.1]:[0m [2015-12-25 06:02:38] INFO  WEBrick::HTTPServer#start done.
+[32m2015-12-25T06:02:38.063320+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/server.rb:80:in `start'
+[32m2015-12-25T06:02:38.094127+00:00 app[web.1]:[0m => Booting WEBrick
+[32m2015-12-25T06:02:38.063322+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+[32m2015-12-25T06:02:38.094130+00:00 app[web.1]:[0m => Rails 4.2.3 application starting in production on http://0.0.0.0:3415
+[32m2015-12-25T06:02:38.063323+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:75:in `tap'
+[32m2015-12-25T06:02:38.063325+00:00 app[web.1]:[0m 	bin/rails:9:in `require'
+[32m2015-12-25T06:02:38.063330+00:00 app[web.1]:[0m [2015-12-25 06:02:38] INFO  going to shutdown ...
+[32m2015-12-25T06:02:38.094133+00:00 app[web.1]:[0m => Ctrl-C to shutdown server
+[32m2015-12-25T06:02:38.094132+00:00 app[web.1]:[0m => Run `rails server -h` for more startup options
+[32m2015-12-25T06:02:38.094133+00:00 app[web.1]:[0m Exiting
+[32m2015-12-25T06:02:38.863945+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[32m2015-12-25T06:02:38.684377+00:00 heroku[web.1]:[0m Process exited with status 143
+[32m2015-12-25T06:02:41.634826+00:00 app[web.1]:[0m bundler: command not found: puma
+[32m2015-12-25T06:02:41.634840+00:00 app[web.1]:[0m Install missing gem executables with `bundle install`
+[32m2015-12-25T06:02:42.586977+00:00 heroku[web.1]:[0m Process exited with status 127
+[32m2015-12-25T06:02:44.292461+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[32m2015-12-25T06:02:45.898435+00:00 app[web.1]:[0m bundler: command not found: puma
+[32m2015-12-25T06:02:45.898456+00:00 app[web.1]:[0m Install missing gem executables with `bundle install`
+[32m2015-12-25T06:02:46.549668+00:00 heroku[web.1]:[0m Process exited with status 127
+[35m2015-12-25T06:03:01.853828+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=04a24fdb-a76d-4785-a0ea-64d2fbb750a1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:02.947475+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=b2f7059e-c443-4fb6-93ac-72ea7d1a7057 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:07.553070+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=9fadb105-9ac2-4caa-95bb-ac4d7627afd6 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:08.023067+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=89d02111-2c64-4dd9-ad42-7e37297fbe3b fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:08.402690+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=59e4a9d4-3790-4d82-a8e4-fb46167424e1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:08.724101+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=e6562506-a8c8-421b-9faf-eed4ccaef5ec fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:09.020975+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=7b640722-4a84-4728-8966-ac9e3cd3f65c fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:09.257062+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=b0b11136-b916-4675-96b6-1949cd0b4e55 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:10.264160+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=1ef976db-7418-4edf-ac13-f4650ad7f9cc fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:04:27.610952+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=c2ec6ee7-659d-4672-9689-870802f35ee5 fwd="212.193.78.147,66.102.9.116" dyno= connect= service= status=503 bytes=
+^C[0m
+ !    Command cancelled.
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[161C[31m1 ↵[00m[164D[?1h=GGeG  vvim Gemfile[?1l>
+]2;vim Gemfile]1;vim[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"Gemfile" 45L, 1488C[>c[1;1Hsource [35m'[m[31mhttps://rubygems.org[m[35m'[m
+
+gem [35m'[m[31mnifty-generators[m[35m'[m
+[34m# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'[m
+gem [35m'[m[31mrails[m[35m'[m, [35m'[m[31m4.2.3[m[35m'[m
+[34m# Use pg as the database for Active Record[m
+gem [35m'[m[31mpg[m[35m'[m
+[34m# Use SCSS for stylesheets[m
+gem [35m'[m[31msass-rails[m[35m'[m, [35m'[m[31m~> 5.0[m[35m'[m
+[34m# Use Uglifier as compressor for JavaScript assets[m
+gem [35m'[m[31muglifier[m[35m'[m, [35m'[m[31m>= 1.3.0[m[35m'[m
+[34m# Use CoffeeScript for .coffee assets and views[m
+gem [35m'[m[31mcoffee-rails[m[35m'[m, [35m'[m[31m~> 4.1.0[m[35m'[m
+[34m# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library[m
+gem [35m'[m[31mjquery-rails[m[35m'[m
+[34m# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks[m
+gem [35m'[m[31mturbolinks[m[35m'[m
+[34m# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder[m
+gem [35m'[m[31mjbuilder[m[35m'[m, [35m'[m[31m~> 2.0[m[35m'[m
+[34m# bundle exec rake doc:rails generates the API under doc/api.[m
+gem [35m'[m[31msdoc[m[35m'[m, [35m'[m[31m~> 0.4.0[m[35m'[m, [31mgroup[m: [31m:doc[m
+
+[34m# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use Unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development[m
+
+group [31m:development[m, [31m:test[m [33mdo[m
+  [34m# Call 'byebug' anywhere in the code to stop execution and get a debugger console[m
+  gem [35m'[m[31mbyebug[m[35m'[m
+
+  [34m# Access an IRB console on exception pages or by using <%= console %> in views[m[40;152H1,1[11CTop[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[40;152H2,0-1[2;1H[?12l[?25h[?25l[40;152H3,1  [3;1H[?12l[?25h[?25l[40;152H4[4;1H[?12l[?25h[?25l[40;152H5[5;1H[?12l[?25h[?25l[40;152H6[6;1H[?12l[?25h[?25l[40;152H7[7;1H[?12l[?25h[?25l[40;152H8[8;1H[?12l[?25h[?25l[40;152H9[9;1H[?12l[?25h[?25l[40;152H10,1[10;1H[?12l[?25h[?25l[40;153H1[11;1H[?12l[?25h[?25l[40;153H2[12;1H[?12l[?25h[?25l[40;153H3[13;1H[?12l[?25h[?25l[40;153H4[14;1H[?12l[?25h[?25l[40;153H5[15;1H[?12l[?25h[?25l[40;153H6,0-1[16;1H[?12l[?25h[?25l[40;153H7,1  [17;1H[?12l[?25h[?25l[40;153H8[18;1H[?12l[?25h[?25l[40;153H9[19;1H[?12l[?25h[?25l[40;152H20[20;1H[?12l[?25h[?25l[40;153H1[21;1H[?12l[?25h[?25l[40;153H2[22;1H[?12l[?25h[?25l[40;153H3[23;1H[?12l[?25h[?25l[40;153H4[24;1H[?12l[?25h[?25l[40;153H5,0-1[25;1H[?12l[?25h[?25l[40;153H6,1  [26;1H[?12l[?25h[?25l[40;153H7[27;1H[?12l[?25h[?25l[40;153H8,0-1[28;1H[?12l[?25h[?25l[40;153H9,1  [29;1H[?12l[?25h[?25l[40;152H30[30;1H[?12l[?25h[?25l[40;153H1,0-1[31;1H[?12l[?25h[?25l[40;153H2,1  [32;1H[?12l[?25h[?25l[40;153H1,0-1[31;1H[?12l[?25h[?25l[40;1H[1m-- INSERT --[m[40;13H[K[40;152H31,1[10CTop[31;1H[?12l[?25h[?25l[32;39r[32;1H[L[1;40r[40;152H[K[40;152H32,1[10CTop[32;1H[?12l[?25h[?25l[33;39r[33;1H[L[1;40r[40;152H[K[40;152H33,1[10CTop[33;1H[?12l[?25h[?25l[40;153H2[32;1H[?12l[?25h[?25lg[40;155H2[32;2H[?12l[?25h[?25le[40;155H3[32;3H[?12l[?25h[?25lm[40;155H4[32;4H[?12l[?25h[?25l[40;155H5[32;5H[?12l[?25h[?25l[35m'[m
+
+[31m# Use Capistrano for deployment
+# gem [m[35m'[mcapistrano-rails[35m'[m[31m, group: :development
+
+group [12C, :test do
+  # Call [m[35m'[mbyebug[35m'[m[31m anywhere in the code to stop execution and get a debugger console
+  gem [m[1Cbyebug[40;155H6[32;6H[?12l[?25h[?25l[31mp[m[40;155H7[32;7H[?12l[?25h[?25l[31mu[m[40;155H8[32;8H[?12l[?25h[?25l[31mm[m[40;155H9[32;9H[?12l[?25h[?25l[31ma[m[40;155H10[32;10H[?12l[?25h[?25l[35m'[m
+
+[34m# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development[m
+
+group [12C, [5C [33mdo[m
+  [34m# Call 'byebug' anywhere in the code to stop execution and get a debugger console[m
+  gem [1C[31mbyebug[m[40;156H1[32;11H[?12l[?25h[40;1H[K[32;10H[?25l[40;152H32,10[9CTop[32;10H[?12l[?25h[?25l[40;152H[K[40;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Gemfile" 47L, 1500C written
+[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                                                              
