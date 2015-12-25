@@ -1341,4 +1341,415 @@ To https://git.heroku.com/murmuring-earth-3019.git
 [?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
 ╰─[1m$[0m [K[?1h=vvim config/puma.rb[?1l>
 ]2;vim config/puma.rb]1;vim[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"config/puma.rb" [New File][>c[2;1H[1m[34m~                                                                                                                                                                        [3;1H~                                                                                                                                                                        [4;1H~                                                                                                                                                                        [5;1H~                                                                                                                                                                        [6;1H~                                                                                                                                                                        [7;1H~                                                                                                                                                                        [8;1H~                                                                                                                                                                        [9;1H~                                                                                                                                                                        [10;1H~                                                                                                                                                                        [11;1H~                                                                                                                                                                        [12;1H~                                                                                                                                                                        [13;1H~                                                                                                                                                                        [14;1H~                                                                                                                                                                        [15;1H~                                                                                                                                                                        [16;1H~                                                                                                                                                                        [17;1H~                                                                                                                                                                        [18;1H~                                                                                                                                                                        [19;1H~                                                                                                                                                                        [20;1H~                                                                                                                                                                        [21;1H~                                                                                                                                                                        [22;1H~                                                                                                                                                                        [23;1H~                                                                                                                                                                        [24;1H~                                                                                                                                                                        [25;1H~                                                                                                                                                                        [26;1H~                                                                                                                                                                        [27;1H~                                                                                                                                                                        [28;1H~                                                                                                                                                                        [29;1H~                                                                                                                                                                        [30;1H~                                                                                                                                                                        [31;1H~                                                                                                                                                                        [32;1H~                                                                                                                                                                        [33;1H~                                                                                                                                                                        [34;1H~                                                                                                                                                                        [35;1H~                                                                                                                                                                        [36;1H~                                                                                                                                                                        [37;1H~                                                                                                                                                                        [38;1H~                                                                                                                                                                        [39;1H~                                                                                                                                                                        [m[40;152H0,0-1[9CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[40;1H[1m-- INSERT --[m[40;13H[K[40;152H2,1[11CAll[2;1Hrkers Integer([36mENV[m[[35m'[m[31mWEB_CONCURRENCY[m[35m'[m] || [31m2[m)[2;43H[K[3;1Hthreads_count = Integer([36mENV[m[[35m'[m[31mMAX_THREADS[m[35m'[m] || [31m5[m)[3;49H[K[4;1Hthreads threads_count, threads_count[4;37H[K[5;1H[K[6;1Hpreload_app![6;13H[K[7;1H[K[8;1Hrackup      [32mDefaultRackup[m[8;26H[K[9;1Hport        [36mENV[m[[35m'[m[31mPORT[m[35m'[m]     || [31m3000[m[9;36H[K[10;1Henvironment [36mENV[m[[35m'[m[31mRACK_ENV[m[35m'[m] || [35m'[m[31mdevelopment[m[35m'[m[10;45H[K[11;1H[K[12;1Hon_worker_boot [33mdo[m[12;18H[K[13;1H  [34m# Worker specific setup for Rails 4.1+[m[13;41H[K[14;1H  [34m# See: https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#on-worker-boot[m[14;116H[K[15;1H  [32mActiveRecord[m::[32mBase[m.establish_connection[15;42H[K[16;1H[33mend[m[16;4H[K[40;152H16,4[16;4H[?12l[?25h[?25l[40;153H5[15;4H[?12l[?25h[?25l[40;153H4[14;4H[?12l[?25h[?25l[40;153H3[13;4H[?12l[?25h[?25l[40;153H2[12;4H[?12l[?25h[?25l[40;153H1,1[11;1H[?12l[?25h[?25l[40;153H0,4[10;4H[?12l[?25h[?25l[40;152H9,4 [9;4H[?12l[?25h[?25l[40;152H8[8;4H[?12l[?25h[?25l[40;152H7,1[7;1H[?12l[?25h[?25l[40;152H6,4[6;4H[?12l[?25h[?25l[40;152H5,1[5;1H[?12l[?25h[?25l[40;152H4,4[4;4H[?12l[?25h[?25l[40;152H3[3;4H[?12l[?25h[?25l[40;154H3[3;3H[?12l[?25h[?25l[40;154H2[3;2H[?12l[?25h[?25l[40;152H2[2;2H[?12l[?25h[?25l[40;154H1[2;1H[?12l[?25h[?25lwrkers Integer([36mENV[m[[35m'[m[31mWEB_CONCURRENCY[m[35m'[m] || [31m2[m)[40;154H2[2;2H[?12l[?25h[?25lorkers Integer([36mENV[m[[35m'[m[31mWEB_CONCURRENCY[m[35m'[m] || [31m2[m)[40;154H3[2;3H[?12l[?25h[?25l[40;152H1,1[1;1H[?12l[?25h[?25l[1;39r[39;1H
-[1;40r[39;1H[1m[34m~                                                                                                                                                                        [m[40;152H[K[40;152H1,1[11CAll[1;1H[?12l[?25h[40;1H[K[1;1H[?25l[40;152H1,1[11CAll[1;1H[?12l[?25h[?25l[40;152H[K[40;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"config/puma.rb" [New] 15L, 47
+[1;40r[39;1H[1m[34m~                                                                                                                                                                        [m[40;152H[K[40;152H1,1[11CAll[1;1H[?12l[?25h[40;1H[K[1;1H[?25l[40;152H1,1[11CAll[1;1H[?12l[?25h[?25l[40;152H[K[40;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"config/puma.rb" [New] 15L, 475C written
+[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=vim config/puma.rb               v  ggit add .[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=ggit commit -m "puma config"[?1l>
+]2;git commit -m "puma config"]1;git[master 68fcfcc] puma config
+ 3 files changed, 274 insertions(+), 2 deletions(-)
+ create mode 100644 config/puma.rb
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master› [00m[00m
+╰─[1m$[0m [K[?1h=git commit -m "puma config"[23Dadd .                  [18D[9Dvim config/puma.rb[14DProcfile      [12Dls          [10Dheroku logs --tail[18Dgit push heroku master[?1l>
+]2;git push heroku master]1;gitCounting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 3.33 KiB | 0 bytes/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Using set buildpack heroku/ruby[K
+remote: -----> Ruby app detected[K
+remote: -----> Compiling Ruby/Rails[K
+remote: -----> Using Ruby version: ruby-2.0.0[K
+remote: -----> Installing dependencies using bundler 1.9.7[K
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment[K
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.[K
+remote:        Using rake 10.4.2[K
+remote:        Using i18n 0.7.0[K
+remote:        Using json 1.8.3[K
+remote:        Using minitest 5.8.3[K
+remote:        Using thread_safe 0.3.5[K
+remote:        Using tzinfo 1.2.2[K
+remote:        Using activesupport 4.2.3[K
+remote:        Using builder 3.2.2[K
+remote:        Using erubis 2.7.0[K
+remote:        Using mini_portile2 2.0.0[K
+remote:        Using nokogiri 1.6.7.1[K
+remote:        Using rails-deprecated_sanitizer 1.0.3[K
+remote:        Using rails-dom-testing 1.0.7[K
+remote:        Using loofah 2.0.3[K
+remote:        Using rails-html-sanitizer 1.0.2[K
+remote:        Using actionview 4.2.3[K
+remote:        Using rack 1.6.4[K
+remote:        Using rack-test 0.6.3[K
+remote:        Using actionpack 4.2.3[K
+remote:        Using globalid 0.3.6[K
+remote:        Using activejob 4.2.3[K
+remote:        Using mime-types 2.99[K
+remote:        Using mail 2.6.3[K
+remote:        Using actionmailer 4.2.3[K
+remote:        Using activemodel 4.2.3[K
+remote:        Using arel 6.0.3[K
+remote:        Using activerecord 4.2.3[K
+remote:        Using coffee-script-source 1.10.0[K
+remote:        Using execjs 2.6.0[K
+remote:        Using coffee-script 2.4.1[K
+remote:        Using thor 0.19.1[K
+remote:        Using railties 4.2.3[K
+remote:        Using coffee-rails 4.1.1[K
+remote:        Using concurrent-ruby 1.0.0[K
+remote:        Using multi_json 1.11.2[K
+remote:        Using jbuilder 2.3.2[K
+remote:        Using jquery-rails 4.0.5[K
+remote:        Using nifty-generators 0.4.6[K
+remote:        Using pg 0.18.4[K
+remote:        Using puma 2.15.3[K
+remote:        Using bundler 1.9.7[K
+remote:        Using sprockets 3.5.2[K
+remote:        Using sprockets-rails 3.0.0[K
+remote:        Using rails 4.2.3[K
+remote:        Using rdoc 4.2.1[K
+remote:        Using sass 3.4.20[K
+remote:        Using tilt 2.0.1[K
+remote:        Using sass-rails 5.0.4[K
+remote:        Using sdoc 0.4.1[K
+remote:        Using turbolinks 2.5.3[K
+remote:        Using uglifier 2.7.2[K
+remote:        Bundle complete! 14 Gemfile dependencies, 51 gems now installed.[K
+remote:        Gems in the groups development and test were not installed.[K
+remote:        Bundled gems are installed into ./vendor/bundle.[K
+remote:        Bundle completed (0.31s)[K
+remote:        Cleaning up the bundler cache.[K
+remote: -----> Preparing app for Rails asset pipeline[K
+remote:        Running: rake assets:precompile[K
+remote:        Asset precompilation completed (4.01s)[K
+remote:        Cleaning assets[K
+remote:        Running: rake assets:clean[K
+remote: 
+remote: ###### WARNING:[K
+remote:        Include 'rails_12factor' gem to enable all platform features[K
+remote:        See https://devcenter.heroku.com/articles/rails-integration-gems for more information.[K
+remote: 
+remote: ###### WARNING:[K
+remote:        You have not declared a Ruby version in your Gemfile.[K
+remote:        To set your Ruby version add this line to your Gemfile:[K
+remote:        ruby '2.0.0'[K
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.[K
+remote: 
+remote: 
+remote: -----> Discovering process types[K
+remote:        Procfile declares types     -> web[K
+remote:        Default types for buildpack -> console, rake, worker[K
+remote: 
+remote: -----> Compressing... done, 28.4MB[K
+remote: -----> Launching... done, v10[K
+remote:        https://murmuring-earth-3019.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/murmuring-earth-3019.git
+   5e5725d..68fcfcc  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=git push heroku master                 g  hheroku logs --tail[?1l>
+]2;heroku logs --tail]1;heroku[36m2015-12-25T06:02:41.634840+00:00 app[web.1]:[0m Install missing gem executables with `bundle install`
+[36m2015-12-25T06:02:42.586977+00:00 heroku[web.1]:[0m Process exited with status 127
+[36m2015-12-25T06:02:44.292461+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[36m2015-12-25T06:02:45.898435+00:00 app[web.1]:[0m bundler: command not found: puma
+[36m2015-12-25T06:02:45.898456+00:00 app[web.1]:[0m Install missing gem executables with `bundle install`
+[36m2015-12-25T06:02:46.549668+00:00 heroku[web.1]:[0m Process exited with status 127
+[33m2015-12-25T06:03:01.853828+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=04a24fdb-a76d-4785-a0ea-64d2fbb750a1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:02.947475+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=b2f7059e-c443-4fb6-93ac-72ea7d1a7057 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:07.553070+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=9fadb105-9ac2-4caa-95bb-ac4d7627afd6 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:08.023067+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=89d02111-2c64-4dd9-ad42-7e37297fbe3b fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:08.402690+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=59e4a9d4-3790-4d82-a8e4-fb46167424e1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:08.724101+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=e6562506-a8c8-421b-9faf-eed4ccaef5ec fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:09.020975+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=7b640722-4a84-4728-8966-ac9e3cd3f65c fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:09.257062+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=b0b11136-b916-4675-96b6-1949cd0b4e55 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:03:10.264160+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=1ef976db-7418-4edf-ac13-f4650ad7f9cc fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:04:27.610952+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=c2ec6ee7-659d-4672-9689-870802f35ee5 fwd="212.193.78.147,66.102.9.116" dyno= connect= service= status=503 bytes=
+[32m2015-12-25T06:06:43.210869+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[32m2015-12-25T06:06:43.210879+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[35m2015-12-25T06:06:43.077523+00:00 heroku[api]:[0m Deploy e9e12f0 by prandtl211@gmail.com
+[35m2015-12-25T06:06:43.077523+00:00 heroku[api]:[0m Release v7 created by prandtl211@gmail.com
+[36m2015-12-25T06:06:43.284103+00:00 heroku[web.1]:[0m State changed from crashed to starting
+[36m2015-12-25T06:06:45.086967+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[36m2015-12-25T06:06:47.199463+00:00 app[web.1]:[0m /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `read': No such file or directory - config/puma.rb (Errno::ENOENT)
+[36m2015-12-25T06:06:47.199487+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `_load_from'
+[36m2015-12-25T06:06:47.199501+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:9:in `block in load'
+[36m2015-12-25T06:06:47.199516+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `tap'
+[36m2015-12-25T06:06:47.199558+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `load'
+[36m2015-12-25T06:06:47.199575+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/configuration.rb:57:in `load'
+[36m2015-12-25T06:06:47.199589+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:543:in `parse_options'
+[36m2015-12-25T06:06:47.199602+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:189:in `run'
+[36m2015-12-25T06:06:47.199634+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `load'
+[36m2015-12-25T06:06:47.199617+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/bin/puma:10:in `<top (required)>'
+[36m2015-12-25T06:06:47.199649+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `<main>'
+[36m2015-12-25T06:06:48.152227+00:00 heroku[web.1]:[0m Process exited with status 1
+[36m2015-12-25T06:06:48.160401+00:00 heroku[web.1]:[0m State changed from starting to crashed
+[33m2015-12-25T06:08:29.199335+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=812c7f41-4bc7-40f5-9e89-65d1c3770d0f fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:08:29.875259+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=cac361aa-b4aa-484c-8b1d-811e812d7f47 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:13:23.542670+00:00 heroku[api]:[0m Deploy 4492683 by prandtl211@gmail.com
+[35m2015-12-25T06:13:23.542670+00:00 heroku[api]:[0m Release v8 created by prandtl211@gmail.com
+[32m2015-12-25T06:13:23.669889+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[32m2015-12-25T06:13:23.669884+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[36m2015-12-25T06:13:24.029082+00:00 heroku[web.1]:[0m State changed from crashed to starting
+[36m2015-12-25T06:13:26.075827+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[36m2015-12-25T06:13:28.459242+00:00 app[web.1]:[0m /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `read': No such file or directory - config/puma.rb (Errno::ENOENT)
+[36m2015-12-25T06:13:28.459266+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `_load_from'
+[36m2015-12-25T06:13:28.459267+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:9:in `block in load'
+[36m2015-12-25T06:13:28.459268+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `tap'
+[36m2015-12-25T06:13:28.459269+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `load'
+[36m2015-12-25T06:13:28.459269+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/configuration.rb:57:in `load'
+[36m2015-12-25T06:13:28.459270+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:543:in `parse_options'
+[36m2015-12-25T06:13:28.459270+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:189:in `run'
+[36m2015-12-25T06:13:28.459271+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/bin/puma:10:in `<top (required)>'
+[36m2015-12-25T06:13:28.459271+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `load'
+[36m2015-12-25T06:13:28.459272+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `<main>'
+[36m2015-12-25T06:13:29.166850+00:00 heroku[web.1]:[0m Process exited with status 1
+[36m2015-12-25T06:13:30.879451+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[36m2015-12-25T06:13:32.791997+00:00 app[web.1]:[0m /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `read': No such file or directory - config/puma.rb (Errno::ENOENT)
+[36m2015-12-25T06:13:32.792012+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `_load_from'
+[36m2015-12-25T06:13:32.792013+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:9:in `block in load'
+[36m2015-12-25T06:13:32.792014+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `tap'
+[36m2015-12-25T06:13:32.792016+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `load'
+[36m2015-12-25T06:13:32.792016+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/configuration.rb:57:in `load'
+[36m2015-12-25T06:13:32.792017+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:543:in `parse_options'
+[36m2015-12-25T06:13:32.792018+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:189:in `run'
+[36m2015-12-25T06:13:32.792018+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/bin/puma:10:in `<top (required)>'
+[36m2015-12-25T06:13:32.792018+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `load'
+[36m2015-12-25T06:13:32.792019+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `<main>'
+[36m2015-12-25T06:13:33.517319+00:00 heroku[web.1]:[0m State changed from starting to crashed
+[36m2015-12-25T06:13:33.499575+00:00 heroku[web.1]:[0m Process exited with status 1
+[35m2015-12-25T06:14:53.087042+00:00 heroku[api]:[0m Deploy 5e5725d by prandtl211@gmail.com
+[35m2015-12-25T06:14:53.087107+00:00 heroku[api]:[0m Release v9 created by prandtl211@gmail.com
+[32m2015-12-25T06:14:53.215046+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[32m2015-12-25T06:14:53.215059+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[36m2015-12-25T06:14:54.942175+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma`
+[36m2015-12-25T06:14:57.349885+00:00 app[web.1]:[0m Puma starting in single mode...
+[36m2015-12-25T06:14:57.349903+00:00 app[web.1]:[0m * Version 2.15.3 (ruby 2.0.0-p648), codename: Autumn Arbor Airbrush
+[36m2015-12-25T06:14:57.349904+00:00 app[web.1]:[0m * Min threads: 0, max threads: 16
+[36m2015-12-25T06:14:57.349904+00:00 app[web.1]:[0m * Environment: production
+[36m2015-12-25T06:14:58.690143+00:00 app[web.1]:[0m * Listening on tcp://0.0.0.0:9292
+[36m2015-12-25T06:14:58.690306+00:00 app[web.1]:[0m Use Ctrl-C to stop
+[36m2015-12-25T06:15:55.364813+00:00 heroku[web.1]:[0m Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+[36m2015-12-25T06:15:55.364813+00:00 heroku[web.1]:[0m Stopping process with SIGKILL
+[36m2015-12-25T06:15:56.080851+00:00 heroku[web.1]:[0m Process exited with status 137
+[36m2015-12-25T06:15:56.078916+00:00 heroku[web.1]:[0m State changed from starting to crashed
+[35m2015-12-25T06:21:10.042919+00:00 heroku[api]:[0m Deploy 68fcfcc by prandtl211@gmail.com
+[35m2015-12-25T06:21:10.042987+00:00 heroku[api]:[0m Release v10 created by prandtl211@gmail.com
+[32m2015-12-25T06:21:10.200516+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[32m2015-12-25T06:21:10.200525+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[36m2015-12-25T06:21:10.886948+00:00 heroku[web.1]:[0m State changed from crashed to starting
+[36m2015-12-25T06:21:12.514321+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[36m2015-12-25T06:21:13.605787+00:00 app[web.1]:[0m [3] Puma starting in cluster mode...
+[36m2015-12-25T06:21:13.605812+00:00 app[web.1]:[0m [3] * Version 2.15.3 (ruby 2.0.0-p648), codename: Autumn Arbor Airbrush
+[36m2015-12-25T06:21:13.605814+00:00 app[web.1]:[0m [3] * Min threads: 5, max threads: 5
+[36m2015-12-25T06:21:13.605814+00:00 app[web.1]:[0m [3] * Environment: production
+[36m2015-12-25T06:21:13.605815+00:00 app[web.1]:[0m [3] * Process workers: 2
+[36m2015-12-25T06:21:13.605816+00:00 app[web.1]:[0m [3] * Preloading application
+[36m2015-12-25T06:21:15.048350+00:00 app[web.1]:[0m [3] * Listening on tcp://0.0.0.0:51434
+[36m2015-12-25T06:21:15.048508+00:00 app[web.1]:[0m [3] Use Ctrl-C to stop
+[36m2015-12-25T06:21:15.099414+00:00 app[web.1]:[0m [3] - Worker 1 (pid: 9) booted, phase: 0
+[36m2015-12-25T06:21:15.099558+00:00 app[web.1]:[0m [3] - Worker 0 (pid: 6) booted, phase: 0
+[36m2015-12-25T06:21:15.244169+00:00 heroku[web.1]:[0m State changed from starting to up
+^C[0m
+ !    Command cancelled.
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[161C[31m1 ↵[00m[164D[?1h=hheroku open[?1l>
+]2;heroku open]1;herokuOpening murmuring-earth-3019... done
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=Gtk-Message: Failed to load module "pantheon-filechooser-module"
+[26067:26067:1225/112133:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[26067:26067:1225/112133:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[26067:26067:1225/112133:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[26067:26067:1225/112133:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[26067:26067:1225/112133:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Created new window in existing browser session.
+heroku openlogs --tail[?1l>
+]2;heroku logs --tail]1;heroku[36m2015-12-25T06:03:01.853828+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=04a24fdb-a76d-4785-a0ea-64d2fbb750a1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:02.947475+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=b2f7059e-c443-4fb6-93ac-72ea7d1a7057 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:07.553070+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=9fadb105-9ac2-4caa-95bb-ac4d7627afd6 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:08.023067+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=89d02111-2c64-4dd9-ad42-7e37297fbe3b fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:08.402690+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=59e4a9d4-3790-4d82-a8e4-fb46167424e1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:08.724101+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=e6562506-a8c8-421b-9faf-eed4ccaef5ec fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:09.020975+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=7b640722-4a84-4728-8966-ac9e3cd3f65c fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:09.257062+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=b0b11136-b916-4675-96b6-1949cd0b4e55 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:03:10.264160+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=1ef976db-7418-4edf-ac13-f4650ad7f9cc fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:04:27.610952+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=c2ec6ee7-659d-4672-9689-870802f35ee5 fwd="212.193.78.147,66.102.9.116" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:06:43.210869+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T06:06:43.210879+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[32m2015-12-25T06:06:43.077523+00:00 heroku[api]:[0m Deploy e9e12f0 by prandtl211@gmail.com
+[32m2015-12-25T06:06:43.077523+00:00 heroku[api]:[0m Release v7 created by prandtl211@gmail.com
+[35m2015-12-25T06:06:43.284103+00:00 heroku[web.1]:[0m State changed from crashed to starting
+[35m2015-12-25T06:06:45.086967+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[35m2015-12-25T06:06:47.199463+00:00 app[web.1]:[0m /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `read': No such file or directory - config/puma.rb (Errno::ENOENT)
+[35m2015-12-25T06:06:47.199487+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `_load_from'
+[35m2015-12-25T06:06:47.199501+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:9:in `block in load'
+[35m2015-12-25T06:06:47.199516+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `tap'
+[35m2015-12-25T06:06:47.199558+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `load'
+[35m2015-12-25T06:06:47.199575+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/configuration.rb:57:in `load'
+[35m2015-12-25T06:06:47.199589+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:543:in `parse_options'
+[35m2015-12-25T06:06:47.199602+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:189:in `run'
+[35m2015-12-25T06:06:47.199634+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `load'
+[35m2015-12-25T06:06:47.199617+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/bin/puma:10:in `<top (required)>'
+[35m2015-12-25T06:06:47.199649+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `<main>'
+[35m2015-12-25T06:06:48.152227+00:00 heroku[web.1]:[0m Process exited with status 1
+[35m2015-12-25T06:06:48.160401+00:00 heroku[web.1]:[0m State changed from starting to crashed
+[36m2015-12-25T06:08:29.199335+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=812c7f41-4bc7-40f5-9e89-65d1c3770d0f fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[36m2015-12-25T06:08:29.875259+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=cac361aa-b4aa-484c-8b1d-811e812d7f47 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[32m2015-12-25T06:13:23.542670+00:00 heroku[api]:[0m Deploy 4492683 by prandtl211@gmail.com
+[32m2015-12-25T06:13:23.542670+00:00 heroku[api]:[0m Release v8 created by prandtl211@gmail.com
+[33m2015-12-25T06:13:23.669889+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[33m2015-12-25T06:13:23.669884+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[35m2015-12-25T06:13:24.029082+00:00 heroku[web.1]:[0m State changed from crashed to starting
+[35m2015-12-25T06:13:26.075827+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[35m2015-12-25T06:13:28.459242+00:00 app[web.1]:[0m /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `read': No such file or directory - config/puma.rb (Errno::ENOENT)
+[35m2015-12-25T06:13:28.459266+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `_load_from'
+[35m2015-12-25T06:13:28.459267+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:9:in `block in load'
+[35m2015-12-25T06:13:28.459268+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `tap'
+[35m2015-12-25T06:13:28.459269+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `load'
+[35m2015-12-25T06:13:28.459269+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/configuration.rb:57:in `load'
+[35m2015-12-25T06:13:28.459270+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:543:in `parse_options'
+[35m2015-12-25T06:13:28.459270+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:189:in `run'
+[35m2015-12-25T06:13:28.459271+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/bin/puma:10:in `<top (required)>'
+[35m2015-12-25T06:13:28.459271+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `load'
+[35m2015-12-25T06:13:28.459272+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `<main>'
+[35m2015-12-25T06:13:29.166850+00:00 heroku[web.1]:[0m Process exited with status 1
+[35m2015-12-25T06:13:30.879451+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[35m2015-12-25T06:13:32.791997+00:00 app[web.1]:[0m /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `read': No such file or directory - config/puma.rb (Errno::ENOENT)
+[35m2015-12-25T06:13:32.792012+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `_load_from'
+[35m2015-12-25T06:13:32.792013+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:9:in `block in load'
+[35m2015-12-25T06:13:32.792014+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `tap'
+[35m2015-12-25T06:13:32.792016+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `load'
+[35m2015-12-25T06:13:32.792016+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/configuration.rb:57:in `load'
+[35m2015-12-25T06:13:32.792017+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:543:in `parse_options'
+[35m2015-12-25T06:13:32.792018+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:189:in `run'
+[35m2015-12-25T06:13:32.792018+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/bin/puma:10:in `<top (required)>'
+[35m2015-12-25T06:13:32.792018+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `load'
+[35m2015-12-25T06:13:32.792019+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `<main>'
+[35m2015-12-25T06:13:33.517319+00:00 heroku[web.1]:[0m State changed from starting to crashed
+[35m2015-12-25T06:13:33.499575+00:00 heroku[web.1]:[0m Process exited with status 1
+[32m2015-12-25T06:14:53.087042+00:00 heroku[api]:[0m Deploy 5e5725d by prandtl211@gmail.com
+[32m2015-12-25T06:14:53.087107+00:00 heroku[api]:[0m Release v9 created by prandtl211@gmail.com
+[33m2015-12-25T06:14:53.215046+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T06:14:53.215059+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[35m2015-12-25T06:14:54.942175+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma`
+[35m2015-12-25T06:14:57.349885+00:00 app[web.1]:[0m Puma starting in single mode...
+[35m2015-12-25T06:14:57.349903+00:00 app[web.1]:[0m * Version 2.15.3 (ruby 2.0.0-p648), codename: Autumn Arbor Airbrush
+[35m2015-12-25T06:14:57.349904+00:00 app[web.1]:[0m * Min threads: 0, max threads: 16
+[35m2015-12-25T06:14:57.349904+00:00 app[web.1]:[0m * Environment: production
+[35m2015-12-25T06:14:58.690143+00:00 app[web.1]:[0m * Listening on tcp://0.0.0.0:9292
+[35m2015-12-25T06:14:58.690306+00:00 app[web.1]:[0m Use Ctrl-C to stop
+[35m2015-12-25T06:15:55.364813+00:00 heroku[web.1]:[0m Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+[35m2015-12-25T06:15:55.364813+00:00 heroku[web.1]:[0m Stopping process with SIGKILL
+[35m2015-12-25T06:15:56.080851+00:00 heroku[web.1]:[0m Process exited with status 137
+[35m2015-12-25T06:15:56.078916+00:00 heroku[web.1]:[0m State changed from starting to crashed
+[32m2015-12-25T06:21:10.042919+00:00 heroku[api]:[0m Deploy 68fcfcc by prandtl211@gmail.com
+[32m2015-12-25T06:21:10.042987+00:00 heroku[api]:[0m Release v10 created by prandtl211@gmail.com
+[33m2015-12-25T06:21:10.200516+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T06:21:10.200525+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[35m2015-12-25T06:21:10.886948+00:00 heroku[web.1]:[0m State changed from crashed to starting
+[35m2015-12-25T06:21:12.514321+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[35m2015-12-25T06:21:13.605787+00:00 app[web.1]:[0m [3] Puma starting in cluster mode...
+[35m2015-12-25T06:21:13.605812+00:00 app[web.1]:[0m [3] * Version 2.15.3 (ruby 2.0.0-p648), codename: Autumn Arbor Airbrush
+[35m2015-12-25T06:21:13.605814+00:00 app[web.1]:[0m [3] * Min threads: 5, max threads: 5
+[35m2015-12-25T06:21:13.605814+00:00 app[web.1]:[0m [3] * Environment: production
+[35m2015-12-25T06:21:13.605815+00:00 app[web.1]:[0m [3] * Process workers: 2
+[35m2015-12-25T06:21:13.605816+00:00 app[web.1]:[0m [3] * Preloading application
+[35m2015-12-25T06:21:15.048350+00:00 app[web.1]:[0m [3] * Listening on tcp://0.0.0.0:51434
+[35m2015-12-25T06:21:15.048508+00:00 app[web.1]:[0m [3] Use Ctrl-C to stop
+[35m2015-12-25T06:21:15.099414+00:00 app[web.1]:[0m [3] - Worker 1 (pid: 9) booted, phase: 0
+[35m2015-12-25T06:21:15.099558+00:00 app[web.1]:[0m [3] - Worker 0 (pid: 6) booted, phase: 0
+[35m2015-12-25T06:21:15.244169+00:00 heroku[web.1]:[0m State changed from starting to up
+[36m2015-12-25T06:21:34.431357+00:00 heroku[router]:[0m at=info method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=25948f74-47ba-42a6-b662-723df6187d7d fwd="212.193.78.147" dyno=web.1 connect=0ms service=34ms status=404 bytes=1744
+[36m2015-12-25T06:21:34.693936+00:00 heroku[router]:[0m at=info method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=ec122aa2-4f0c-48c4-87e4-d79093c9829d fwd="212.193.78.147" dyno=web.1 connect=0ms service=4ms status=200 bytes=143
+[36m2015-12-25T06:21:43.878995+00:00 heroku[router]:[0m at=info method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=36e9ffd4-9960-4fd8-ad5d-78f36a81b728 fwd="212.193.78.147" dyno=web.1 connect=1ms service=3ms status=404 bytes=1744
+[36m2015-12-25T06:21:44.223421+00:00 heroku[router]:[0m at=info method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=51c60d81-d91e-4a1d-bd28-10e4893425ab fwd="212.193.78.147" dyno=web.1 connect=0ms service=31ms status=404 bytes=1744
+[36m2015-12-25T06:21:44.124875+00:00 heroku[router]:[0m at=info method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=6875850b-128c-43e6-b964-e220f54285d6 fwd="212.193.78.147" dyno=web.1 connect=1ms service=1ms status=200 bytes=143
+[36m2015-12-25T06:21:44.466513+00:00 heroku[router]:[0m at=info method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=8d3f22dd-29b0-4216-8a1a-1f717948dde3 fwd="212.193.78.147" dyno=web.1 connect=0ms service=1ms status=200 bytes=143
+[36m2015-12-25T06:22:13.306421+00:00 heroku[router]:[0m at=info method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=4b78b06a-9573-4041-bd71-816299c379b5 fwd="212.193.78.147" dyno=web.1 connect=0ms service=3ms status=404 bytes=1744
+[36m2015-12-25T06:22:13.550861+00:00 heroku[router]:[0m at=info method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=1f1e7cde-b714-4cf7-b820-5db733917169 fwd="212.193.78.147" dyno=web.1 connect=1ms service=1ms status=200 bytes=143
+^C[0m
+ !    Command cancelled.
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[161C[31m1 ↵[00m[164D[?1h=ppuma[?1l>
+]2;puma]1;puma[26292] Puma starting in cluster mode...
+[26292] * Version 2.15.3 (ruby 2.2.3-p173), codename: Autumn Arbor Airbrush
+[26292] * Min threads: 5, max threads: 5
+[26292] * Environment: development
+[26292] * Process workers: 2
+[26292] * Preloading application
+[26292] * Listening on tcp://0.0.0.0:3000
+[26292] Use Ctrl-C to stop
+[26292] - Worker 0 (pid: 26319) booted, phase: 0
+[26292] - Worker 1 (pid: 26323) booted, phase: 0
+[26323] 127.0.0.1 - - [25/Dec/2015:11:24:00 +0500] "GET / HTTP/1.1" 304 - 0.0738
+[26323] 127.0.0.1 - - [25/Dec/2015:11:24:00 +0500] "GET %2Ffavicon.ico HTTP/1.1" 304 - 0.0003
+^C[26292] - Gracefully shutting down workers...
+[26292] === puma shutdown: 2015-12-25 11:25:09 +0500 ===
+[26292] - Goodbye!
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=GGemfi   G  vvim Gemfile[?1l>
+]2;vim Gemfile]1;vim[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"Gemfile" 47L, 1500C[>c[1;1Hsource [35m'[m[31mhttps://rubygems.org[m[35m'[m
+
+gem [35m'[m[31mnifty-generators[m[35m'[m
+[34m# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'[m
+gem [35m'[m[31mrails[m[35m'[m, [35m'[m[31m4.2.3[m[35m'[m
+[34m# Use pg as the database for Active Record[m
+gem [35m'[m[31mpg[m[35m'[m
+[34m# Use SCSS for stylesheets[m
+gem [35m'[m[31msass-rails[m[35m'[m, [35m'[m[31m~> 5.0[m[35m'[m
+[34m# Use Uglifier as compressor for JavaScript assets[m
+gem [35m'[m[31muglifier[m[35m'[m, [35m'[m[31m>= 1.3.0[m[35m'[m
+[34m# Use CoffeeScript for .coffee assets and views[m
+gem [35m'[m[31mcoffee-rails[m[35m'[m, [35m'[m[31m~> 4.1.0[m[35m'[m
+[34m# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library[m
+gem [35m'[m[31mjquery-rails[m[35m'[m
+[34m# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks[m
+gem [35m'[m[31mturbolinks[m[35m'[m
+[34m# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder[m
+gem [35m'[m[31mjbuilder[m[35m'[m, [35m'[m[31m~> 2.0[m[35m'[m
+[34m# bundle exec rake doc:rails generates the API under doc/api.[m
+gem [35m'[m[31msdoc[m[35m'[m, [35m'[m[31m~> 0.4.0[m[35m'[m, [31mgroup[m: [31m:doc[m
+
+[34m# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use Unicorn as the app server
+# gem 'unicorn'[m
+
+gem [35m'[m[31mpuma[m[35m'[m
+
+[34m# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development[m
+
+group [31m:development[m, [31m:test[m [33mdo[m
+  [34m# Call 'byebug' anywhere in the code to stop execution and get a debugger console[m
+  gem [35m'[m[31mbyebug[m[35m'[m[40;152H1,1[11CTop[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[40;152H2,0-1[2;1H[?12l[?25h[?25l[40;152H3,1  [3;1H[?12l[?25h[?25l[40;152H4[4;1H[?12l[?25h[?25l[40;152H5[5;1H[?12l[?25h[?25l[40;152H6[6;1H[?12l[?25h[?25l[40;152H7[7;1H[?12l[?25h[?25l[40;152H8[8;1H[?12l[?25h[?25l[40;152H9[9;1H[?12l[?25h[?25l[40;152H10,1[10;1H[?12l[?25h[?25l[40;153H1[11;1H[?12l[?25h[?25l[40;153H2[12;1H[?12l[?25h[?25l[40;153H3[13;1H[?12l[?25h[?25l[40;153H4[14;1H[?12l[?25h[?25l[40;153H5[15;1H[?12l[?25h[?25l[40;153H6,0-1[16;1H[?12l[?25h[?25l[40;153H7,1  [17;1H[?12l[?25h[?25l[40;153H8[18;1H[?12l[?25h[?25l[40;153H9[19;1H[?12l[?25h[?25l[40;152H20[20;1H[?12l[?25h[?25l[40;153H1[21;1H[?12l[?25h[?25l[40;153H2[22;1H[?12l[?25h[?25l[40;153H3[23;1H[?12l[?25h[?25l[40;153H4[24;1H[?12l[?25h[?25l[40;153H5,0-1[25;1H[?12l[?25h[?25l[40;153H6,1  [26;1H[?12l[?25h[?25l[40;153H7[27;1H[?12l[?25h[?25l[40;153H8,0-1[28;1H[?12l[?25h[?25l[40;153H9,1  [29;1H[?12l[?25h[?25l[40;152H30[30;1H[?12l[?25h[?25l[40;153H1,0-1[31;1H[?12l[?25h[?25l[40;153H2,1  [32;1H[?12l[?25h[?25l[40;153H3,0-1[33;1H[?12l[?25h[?25l[40;153H4,1  [34;1H[?12l[?25h[?25l[40;153H5[35;1H[?12l[?25h[?25l[40;153H6,0-1[36;1H[?12l[?25h[?25l[40;153H7,1  [37;1H[?12l[?25h[?25l[40;153H8[38;1H[?12l[?25h[?25l[40;153H9[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[40;1H[K[40;152H40,0-1[8C12%[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[39;3H[34m# Access an IRB console on exception pages or by using <%= console %> in views[m[40;152H[K[40;152H41,1[10C25%[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[39;3Hgem [35m'[m[31mweb-console[m[35m'[m, [35m'[m[31m~> 2.0[m[35m'[m[40;152H[K[40;152H42,1[10C37%[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[40;152H[K[40;152H43,0-1[8C50%[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[39;3H[34m# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring[m[40;152H[K[40;152H44,1[10C62%[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[39;3Hgem [35m'[m[31mspring[m[35m'[m[40;152H[K[40;152H45,1[10C75%[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[39;1H[33mend[m[40;152H[K[40;152H46,1[10C87%[39;1H[?12l[?25h[?25l[1;39r[39;1H
+[1;40r[40;152H[K[40;152H47,0-1[8CBot[39;1H[?12l[?25h[?25l[40;153H6,1  [38;1H[?12l[?25h[?25l[40;153H5[37;1H[?12l[?25h[?25l[40;153H4[36;1H[?12l[?25h[?25l[40;153H3,0-1[35;1H[?12l[?25h[?25l[40;153H2,1  [34;1H[?12l[?25h[?25l[40;153H1[33;1H[?12l[?25h[?25l[40;153H0,0-1[32;1H[?12l[?25h[?25l[40;152H39,1  [31;1H[?12l[?25h[?25l[40;153H8[30;1H[?12l[?25h[?25l[40;153H7[29;1H[?12l[?25h[?25l[40;153H6,0-1[28;1H[?12l[?25h[?25l[40;153H5,1  [27;1H[?12l[?25h[?25l[40;153H4[26;1H[?12l[?25h[?25l[40;153H3,0-1[25;1H[?12l[?25h[?25l[40;153H2,1  [24;1H[?12l[?25h[?25l[40;153H1,0-1[23;1H[?12l[?25h[?25l[40;153H0,1  [22;1H[?12l[?25h[?25l[40;152H29[21;1H[?12l[?25h[?25l[40;153H8,0-1[20;1H[?12l[?25h[?25l[40;153H7,1  [19;1H[?12l[?25h[?25l[40;153H6[18;1H[?12l[?25h[?25l[40;153H5,0-1[17;1H[?12l[?25h[?25l[40;153H4,1  [16;1H[?12l[?25h[?25l[40;153H3[15;1H[?12l[?25h[?25l[40;153H2[14;1H[?12l[?25h[?25l[40;153H1[13;1H[?12l[?25h[?25l[40;153H0[12;1H[?12l[?25h[?25l[40;152H19[11;1H[?12l[?25h[?25l[40;153H8[10;1H[?12l[?25h[?25l[40;153H7[9;1H[?12l[?25h[?25l[40;153H6,0-1[8;1H[?12l[?25h[?25l[40;153H5,1  [7;1H[?12l[?25h[?25l[40;153H4[6;1H[?12l[?25h[?25l[40;153H3[5;1H[?12l[?25h[?25l[40;153H2[4;1H[?12l[?25h[?25l[40;153H1[3;1H[?12l[?25h[?25l[40;153H0[2;1H[?12l[?25h[?25l[40;152H9,1 [1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[1;1H[34m# Use SCSS for stylesheets[m[40;152H[K[40;152H8,1[11C87%[1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[1;1Hgem [35m'[m[31mpg[m[35m'[m[40;152H[K[40;152H7,1[11C75%[1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[1;1H[34m# Use pg as the database for Active Record[m[40;152H[K[40;152H6,1[11C62%[1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[1;1Hgem [35m'[m[31mrails[m[35m'[m, [35m'[m[31m4.2.3[m[35m'[m[40;152H[K[40;152H5,1[11C50%[1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[1;1H[34m# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'[m[40;152H[K[40;152H4,1[11C37%[1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[1;1Hgem [35m'[m[31mnifty-generators[m[35m'[m[40;152H[K[40;152H3,1[11C25%[1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[40;152H[K[40;152H2,0-1[9C12%[1;1H[?12l[?25h[?25l[1;39r[1;1H[L[1;40r[1;1Hsource [35m'[m[31mhttps://rubygems.org[m[35m'[m[40;152H[K[40;152H1,1[11CTop[1;1H[?12l[?25h[?25l[40;152H[K[40;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=rrake assets:precompile RAILS_ENV=production[?1l>
+]2;rake assets:precompile RAILS_ENV=production]1;assets:precompileI, [2015-12-25T11:28:23.566403 #26431]  INFO -- : Writing /home/prandtl/Documents/HerokuForum/public/assets/application-6e458465873a410450320d79e3a040d6b67c3e9144b100eab5416a380819f064.js
+I, [2015-12-25T11:28:23.567295 #26431]  INFO -- : Writing /home/prandtl/Documents/HerokuForum/public/assets/application-6e458465873a410450320d79e3a040d6b67c3e9144b100eab5416a380819f064.js.gz
+I, [2015-12-25T11:28:23.578467 #26431]  INFO -- : Writing /home/prandtl/Documents/HerokuForum/public/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css
+I, [2015-12-25T11:28:23.578763 #26431]  INFO -- : Writing /home/prandtl/Documents/HerokuForum/public/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=hheroku run rake db:migrate[?1l>
+]2;heroku run rake db:migrate]1;herokuRunning [36m[1mrake db:migrate[22m[39m on murmuring-earth-3019... up, run.1104
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=hheroku open[?1l>
+]2;heroku open]1;herokuOpening murmuring-earth-3019... done
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=Gtk-Message: Failed to load module "pantheon-filechooser-module"
+[26585:26585:1225/112859:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme e
