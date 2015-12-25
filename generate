@@ -68,4 +68,253 @@ Completed 200 OK in 23ms (Views: 10.6ms | ActiveRecord: 0.0ms)
 ^C[2015-12-25 10:56:11] INFO  going to shutdown ...
 [2015-12-25 10:56:12] INFO  WEBrick::HTTPServer#start done.
 Exiting
-[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mpran
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [00m
+╰─[1m$[0m [K[?1h=ggit commit -m "initial with postgres"[?1l>
+]2;git commit -m "initial with postgres"]1;gitfatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [00m
+╰─[1m$[0m [K[159C[31m128 ↵[00m[164D[?1h=ggit  g  ggit init[?1l>
+]2;git init]1;gitInitialized empty Git repository in /home/prandtl/Documents/HerokuForum/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=ggit commit
+[0mcommit  -- record changes to repository
+[Jcommit-tree  -- create new commit object[J[A[A[0m[27m[24m[0m[27m[24m[4Cgit commit[K[0m[27m[24m 
+[J[A[15C-m "initial with postgres"[22DWhat does [2Ce cow say?"[23Dinitial wi[2C postgres" [?1l>
+[J]2;git commit -m "initial with postgres"]1;gitOn branch master
+
+Initial commit
+
+Untracked files:
+	[31m.gitignore[m
+	[31mGemfile[m
+	[31mGemfile.lock[m
+	[31mREADME.rdoc[m
+	[31mRakefile[m
+	[31mapp/[m
+	[31mbin/[m
+	[31mconfig.ru[m
+	[31mconfig/[m
+	[31mdb/[m
+	[31mgenerate[m
+	[31mlib/[m
+	[31mlog/[m
+	[31mpublic/[m
+	[31mtest/[m
+	[31mvendor/[m
+
+nothing added to commit but untracked files present
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[161C[31m1 ↵[00m[164D[?1h=ggit add .[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=git add .commit -m "initial with postgres"[?1l>
+]2;git commit -m "initial with postgres"]1;git[master (root-commit) d8fa1b9] initial with postgres
+ 59 files changed, 1083 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.rdoc
+ create mode 100644 Rakefile
+ create mode 100644 app/assets/images/.keep
+ create mode 100644 app/assets/javascripts/application.js
+ create mode 100644 app/assets/stylesheets/application.css
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/concerns/.keep
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/mailers/.keep
+ create mode 100644 app/models/.keep
+ create mode 100644 app/models/concerns/.keep
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100755 bin/bundle
+ create mode 100755 bin/rails
+ create mode 100755 bin/rake
+ create mode 100755 bin/setup
+ create mode 100755 bin/spring
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/assets.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/cookies_serializer.rb
+ create mode 100644 config/initializers/filter_parameter_logging.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/session_store.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/routes.rb
+ create mode 100644 config/secrets.yml
+ create mode 100644 db/schema.rb
+ create mode 100644 db/seeds.rb
+ create mode 100644 generate
+ create mode 100644 lib/assets/.keep
+ create mode 100644 lib/tasks/.keep
+ create mode 100644 log/.keep
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/robots.txt
+ create mode 100644 test/controllers/.keep
+ create mode 100644 test/fixtures/.keep
+ create mode 100644 test/helpers/.keep
+ create mode 100644 test/integration/.keep
+ create mode 100644 test/mailers/.keep
+ create mode 100644 test/models/.keep
+ create mode 100644 test/test_helper.rb
+ create mode 100644 vendor/assets/javascripts/.keep
+ create mode 100644 vendor/assets/stylesheets/.keep
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=hheroku create[?1l>
+]2;heroku create]1;herokuCreating murmuring-earth-3019... done, stack is cedar-14
+https://murmuring-earth-3019.herokuapp.com/ | https://git.heroku.com/murmuring-earth-3019.git
+Git remote heroku added
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=s ggit push heroku master[?1l>
+]2;git push heroku master]1;gitCounting objects: 66, done.
+Delta compression using up to 8 threads.
+Compressing objects:   1% (1/56)   Compressing objects:   3% (2/56)   Compressing objects:   5% (3/56)   Compressing objects:   7% (4/56)   Compressing objects:   8% (5/56)   Compressing objects:  10% (6/56)   Compressing objects:  12% (7/56)   Compressing objects:  14% (8/56)   Compressing objects:  16% (9/56)   Compressing objects:  17% (10/56)   Compressing objects:  19% (11/56)   Compressing objects:  21% (12/56)   Compressing objects:  23% (13/56)   Compressing objects:  25% (14/56)   Compressing objects:  26% (15/56)   Compressing objects:  28% (16/56)   Compressing objects:  30% (17/56)   Compressing objects:  32% (18/56)   Compressing objects:  33% (19/56)   Compressing objects:  35% (20/56)   Compressing objects:  37% (21/56)   Compressing objects:  39% (22/56)   Compressing objects:  41% (23/56)   Compressing objects:  42% (24/56)   Compressing objects:  44% (25/56)   Compressing objects:  46% (26/56)   Compressing objects:  48% (27/56)   Compressing objects:  50% (28/56)   Compressing objects:  51% (29/56)   Compressing objects:  53% (30/56)   Compressing objects:  55% (31/56)   Compressing objects:  57% (32/56)   Compressing objects:  58% (33/56)   Compressing objects:  60% (34/56)   Compressing objects:  62% (35/56)   Compressing objects:  64% (36/56)   Compressing objects:  66% (37/56)   Compressing objects:  67% (38/56)   Compressing objects:  69% (39/56)   Compressing objects:  71% (40/56)   Compressing objects:  73% (41/56)   Compressing objects:  75% (42/56)   Compressing objects:  76% (43/56)   Compressing objects:  78% (44/56)   Compressing objects:  80% (45/56)   Compressing objects:  82% (46/56)   Compressing objects:  83% (47/56)   Compressing objects:  85% (48/56)   Compressing objects:  87% (49/56)   Compressing objects:  89% (50/56)   Compressing objects:  91% (51/56)   Compressing objects:  92% (52/56)   Compressing objects:  94% (53/56)   Compressing objects:  96% (54/56)   Compressing objects:  98% (55/56)   Compressing objects: 100% (56/56)   Compressing objects: 100% (56/56), done.
+Writing objects:   1% (1/66)   Writing objects:   3% (2/66)   Writing objects:   4% (3/66)   Writing objects:   6% (4/66)   Writing objects:   7% (5/66)   Writing objects:   9% (6/66)   Writing objects:  10% (7/66)   Writing objects:  12% (8/66)   Writing objects:  13% (9/66)   Writing objects:  15% (10/66)   Writing objects:  16% (11/66)   Writing objects:  18% (12/66)   Writing objects:  19% (13/66)   Writing objects:  21% (14/66)   Writing objects:  22% (15/66)   Writing objects:  24% (16/66)   Writing objects:  25% (17/66)   Writing objects:  27% (18/66)   Writing objects:  28% (19/66)   Writing objects:  30% (20/66)   Writing objects:  31% (21/66)   Writing objects:  33% (22/66)   Writing objects:  34% (23/66)   Writing objects:  36% (24/66)   Writing objects:  37% (25/66)   Writing objects:  39% (26/66)   Writing objects:  40% (27/66)   Writing objects:  42% (28/66)   Writing objects:  43% (29/66)   Writing objects:  45% (30/66)   Writing objects:  46% (31/66)   Writing objects:  48% (32/66)   Writing objects:  50% (33/66)   Writing objects:  51% (34/66)   Writing objects:  53% (35/66)   Writing objects:  54% (36/66)   Writing objects:  56% (37/66)   Writing objects:  57% (38/66)   Writing objects:  59% (39/66)   Writing objects:  60% (40/66)   Writing objects:  62% (41/66)   Writing objects:  63% (42/66)   Writing objects:  65% (43/66)   Writing objects:  66% (44/66)   Writing objects:  68% (45/66)   Writing objects:  69% (46/66)   Writing objects:  71% (47/66)   Writing objects:  72% (48/66)   Writing objects:  74% (49/66)   Writing objects:  75% (50/66)   Writing objects:  77% (51/66)   Writing objects:  78% (52/66)   Writing objects:  80% (53/66)   Writing objects:  81% (54/66)   Writing objects:  83% (55/66)   Writing objects:  84% (56/66)   Writing objects:  86% (57/66)   Writing objects:  87% (58/66)   Writing objects:  89% (59/66)   Writing objects:  90% (60/66)   Writing objects:  92% (61/66)   Writing objects:  93% (62/66)   Writing objects:  95% (63/66)   Writing objects:  96% (64/66)   Writing objects:  98% (65/66)   Writing objects: 100% (66/66)   Writing objects: 100% (66/66), 19.68 KiB | 0 bytes/s, done.
+Total 66 (delta 2), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Ruby app detected[K
+remote: -----> Compiling Ruby/Rails[K
+remote: -----> Using Ruby version: ruby-2.0.0[K
+remote: -----> Installing dependencies using bundler 1.9.7[K
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment[K
+remote:        Fetching gem metadata from https://rubygems.org/...........[K
+remote:        Fetching version metadata from https://rubygems.org/...[K
+remote:        Fetching dependency metadata from https://rubygems.org/..[K
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.[K
+remote:        Installing rake 10.4.2[K
+remote:        Installing i18n 0.7.0[K
+remote:        Installing json 1.8.3[K
+remote:        Installing minitest 5.8.3[K
+remote:        Installing thread_safe 0.3.5[K
+remote:        Installing tzinfo 1.2.2[K
+remote:        Installing activesupport 4.2.3[K
+remote:        Installing builder 3.2.2[K
+remote:        Installing erubis 2.7.0[K
+remote:        Installing mini_portile2 2.0.0[K
+remote:        Installing nokogiri 1.6.7.1[K
+remote:        Installing rails-deprecated_sanitizer 1.0.3[K
+remote:        Installing rails-dom-testing 1.0.7[K
+remote:        Installing loofah 2.0.3[K
+remote:        Installing rails-html-sanitizer 1.0.2[K
+remote:        Installing actionview 4.2.3[K
+remote:        Installing rack 1.6.4[K
+remote:        Installing rack-test 0.6.3[K
+remote:        Installing actionpack 4.2.3[K
+remote:        Installing globalid 0.3.6[K
+remote:        Installing activejob 4.2.3[K
+remote:        Installing mime-types 2.99[K
+remote:        Installing mail 2.6.3[K
+remote:        Installing actionmailer 4.2.3[K
+remote:        Installing activemodel 4.2.3[K
+remote:        Installing arel 6.0.3[K
+remote:        Installing activerecord 4.2.3[K
+remote:        Installing coffee-script-source 1.10.0[K
+remote:        Installing execjs 2.6.0[K
+remote:        Installing coffee-script 2.4.1[K
+remote:        Installing thor 0.19.1[K
+remote:        Installing railties 4.2.3[K
+remote:        Installing coffee-rails 4.1.1[K
+remote:        Installing concurrent-ruby 1.0.0[K
+remote:        Installing multi_json 1.11.2[K
+remote:        Installing jbuilder 2.3.2[K
+remote:        Installing jquery-rails 4.0.5[K
+remote:        Installing nifty-generators 0.4.6[K
+remote:        Installing pg 0.18.4[K
+remote:        Using bundler 1.9.7[K
+remote:        Installing sprockets 3.5.2[K
+remote:        Installing sprockets-rails 3.0.0[K
+remote:        Installing rails 4.2.3[K
+remote:        Installing rdoc 4.2.1[K
+remote:        Installing sass 3.4.20[K
+remote:        Installing tilt 2.0.1[K
+remote:        Installing sass-rails 5.0.4[K
+remote:        Installing sdoc 0.4.1[K
+remote:        Installing turbolinks 2.5.3[K
+remote:        Installing uglifier 2.7.2[K
+remote:        Bundle complete! 13 Gemfile dependencies, 50 gems now installed.[K
+remote:        Gems in the groups development and test were not installed.[K
+remote:        Bundled gems are installed into ./vendor/bundle.[K
+remote:        Post-install message from rdoc:[K
+remote:        Depending on your version of ruby, you may need to install ruby rdoc/ri data:[K
+remote:        <= 1.8.6 : unsupported[K
+remote:        = 1.8.7 : gem install rdoc-data; rdoc-data --install[K
+remote:        = 1.9.1 : gem install rdoc-data; rdoc-data --install[K
+remote:        >= 1.9.2 : nothing to do! Yay![K
+remote:        Bundle completed (49.40s)[K
+remote:        Cleaning up the bundler cache.[K
+remote: -----> Preparing app for Rails asset pipeline[K
+remote:        Running: rake assets:precompile[K
+remote:        I, [2015-12-25T05:59:28.468178 #996]  INFO -- : Writing /tmp/build_b0acb3f782e636561d2d79ae81888549/public/assets/application-6e458465873a410450320d79e3a040d6b67c3e9144b100eab5416a380819f064.js[K
+remote:        I, [2015-12-25T05:59:28.469027 #996]  INFO -- : Writing /tmp/build_b0acb3f782e636561d2d79ae81888549/public/assets/application-6e458465873a410450320d79e3a040d6b67c3e9144b100eab5416a380819f064.js.gz[K
+remote:        I, [2015-12-25T05:59:28.479395 #996]  INFO -- : Writing /tmp/build_b0acb3f782e636561d2d79ae81888549/public/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css[K
+remote:        I, [2015-12-25T05:59:28.479608 #996]  INFO -- : Writing /tmp/build_b0acb3f782e636561d2d79ae81888549/public/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz[K
+remote:        Asset precompilation completed (3.83s)[K
+remote:        Cleaning assets[K
+remote:        Running: rake assets:clean[K
+remote: 
+remote: ###### WARNING:[K
+remote:        Include 'rails_12factor' gem to enable all platform features[K
+remote:        See https://devcenter.heroku.com/articles/rails-integration-gems for more information.[K
+remote: 
+remote: ###### WARNING:[K
+remote:        You have not declared a Ruby version in your Gemfile.[K
+remote:        To set your Ruby version add this line to your Gemfile:[K
+remote:        ruby '2.0.0'[K
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.[K
+remote: 
+remote: ###### WARNING:[K
+remote:        No Procfile detected, using the default web server (webrick)[K
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server[K
+remote: 
+remote: -----> Discovering process types[K
+remote:        Procfile declares types     -> (none)[K
+remote:        Default types for buildpack -> console, rake, web, worker[K
+remote: 
+remote: -----> Compressing... done, 28.1MB[K
+remote: -----> Launching... done, v5[K
+remote:        https://murmuring-earth-3019.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/murmuring-earth-3019.git
+ * [new branch]      master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=hheroku open[?1l>
+]2;heroku open]1;herokuOpening murmuring-earth-3019... done
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=Gtk-Message: Failed to load module "pantheon-filechooser-module"
+[24391:24391:1225/105943:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24391:24391:1225/105943:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24391:24391:1225/105943:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24391:24391:1225/105943:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[24391:24391:1225/105943:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Created new window in existing browser session.
+ccdc  
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[161C[31m1 ↵[00m[164D[?1h=vim Procfile[12Dls          [10Dvim Procfile         v  eecho "web: bundle exec puma -C config/puma.rb[?1l>
+[0m[27m[24m[Jdquote> [K[?1h=d[?1l>
+[0m[27m[24m[Jdquote> [K[?1h="[?1l>
+]2;echo "web: bundle exec puma -C config/puma.rb d "]1;echoweb: bundle exec puma -C config/puma.rb
+d
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=echo "web: bundle exec puma -C config/puma.rb
+d[K
+"[K[A[A[48Cd[1B"[1B[K[A[A[49C "[1B[K[A[49C[1C >> ProcG g file[?1l>[1B]2;echo "web: bundle exec puma -C config/puma.rb" >> Procfile]1;echo[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=lls[?1l>
+]2;ls --color=tty]1;ls[0m[01;34mapp[0m  [01;34mbin[0m  [01;34mconfig[0m  config.ru  [01;34mdb[0m  Gemfile  Gemfile.lock  generate  [01;34mlib[0m  [01;34mlog[0m  Procfile  [01;34mpublic[0m  Rakefile  README.rdoc  [01;34mtest[0m  [01;34mtmp[0m  [01;34mvendor[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=vvim Procfile[1m [0m[0m [?1l>
+]2;vim Procfile]1;vim[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"Procfile" 1L, 40C[>c[1;1Hweb: bundle exec puma -C config/puma.rb
+[1m[34m~                                                                                                                                                                        [3;1H~                                                                                                                                                                        [4;1H~                                                                                                                                                                        [5;1H~                                                                                                                                                                        [6;1H~                                                                                                                                                                        [7;1H~                                                                                                                                                                        [8;1H~                                                                                                                                                                        [9;1H~                                                                                                                                                                        [10;1H~                                                                                                                                                                        [11;1H~                                                                                                                                                                        [12;1H~                                                                                                                                                                        [13;1H~                                                                                                                                                                        [14;1H~                                                                                                                                                                        [15;1H~                                                                                                                                                                        [16;1H~                                                                                                                                                                        [17;1H~                                                                                                                                                                        [18;1H~                                                                                                                                                                        [19;1H~                                                                                                                                                                        [20;1H~                                                                                                                                                                        [21;1H~                                                                                                                                                                        [22;1H~                                                                                                                                                                        [23;1H~                                                                                                                                                                        [24;1H~                                                                                                                                                                        [25;1H~                                                                                                                                                                        [26;1H~                                                                                                                                                                        [27;1H~                                                                                                                                                                        [28;1H~                                                                                                                                                                        [29;1H~                                                                                                                                                                        [30;1H~                                                                                                                                                                        [31;1H~                                                                                                                                                                        [32;1H~                                                                                                                                                                        [33;1H~                                                                                                                                                                        [34;1H~                                                                                                                                                                        [35;1H~                                                                                                                                                                        [36;1H~                                                                                                                                                                        [37;1H~                                                                                                                                                                        [38;1H~                                                                                                                                                                        [39;1H~                                                                                                                                                                        [m[40;152H1,1[11CAll[1;1H[?12l[?25h
