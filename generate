@@ -828,3 +828,36 @@ heroku open[11Dgit push heroku master[18Dcommit -m "using puma"[22Dadd .     
 [36m2015-12-25T06:06:43.077523+00:00 heroku[api]:[0m Release v7 created by prandtl211@gmail.com
 [32m2015-12-25T06:06:43.284103+00:00 heroku[web.1]:[0m State changed from crashed to starting
 [32m2015-12-25T06:06:45.086967+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[32m2015-12-25T06:06:47.199463+00:00 app[web.1]:[0m /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `read': No such file or directory - config/puma.rb (Errno::ENOENT)
+[32m2015-12-25T06:06:47.199487+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:20:in `_load_from'
+[32m2015-12-25T06:06:47.199501+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:9:in `block in load'
+[32m2015-12-25T06:06:47.199516+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `tap'
+[32m2015-12-25T06:06:47.199558+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/dsl.rb:8:in `load'
+[32m2015-12-25T06:06:47.199575+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/configuration.rb:57:in `load'
+[32m2015-12-25T06:06:47.199589+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:543:in `parse_options'
+[32m2015-12-25T06:06:47.199602+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/lib/puma/cli.rb:189:in `run'
+[32m2015-12-25T06:06:47.199634+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `load'
+[32m2015-12-25T06:06:47.199617+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/gems/puma-2.15.3/bin/puma:10:in `<top (required)>'
+[32m2015-12-25T06:06:47.199649+00:00 app[web.1]:[0m 	from /app/vendor/bundle/ruby/2.0.0/bin/puma:23:in `<main>'
+[32m2015-12-25T06:06:48.152227+00:00 heroku[web.1]:[0m Process exited with status 1
+[32m2015-12-25T06:06:48.160401+00:00 heroku[web.1]:[0m State changed from starting to crashed
+[35m2015-12-25T06:08:29.199335+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=812c7f41-4bc7-40f5-9e89-65d1c3770d0f fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:08:29.875259+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=cac361aa-b4aa-484c-8b1d-811e812d7f47 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+^C[0m
+ !    Command cancelled.
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[161C[31m1 ↵[00m[164D[?1h=ppuma[?1l>
+]2;puma]1;pumaPuma starting in single mode...
+* Version 2.15.3 (ruby 2.2.3-p173), codename: Autumn Arbor Airbrush
+* Min threads: 0, max threads: 16
+* Environment: development
+* Listening on tcp://0.0.0.0:9292
+Use Ctrl-C to stop
+127.0.0.1 - - [25/Dec/2015:11:10:21 +0500] "GET / HTTP/1.1" 200 - 0.1975
+127.0.0.1 - - [25/Dec/2015:11:10:21 +0500] "GET %2Ffavicon.ico HTTP/1.1" 200 - 0.0008
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2015-12-25 11:10:25 +0500 ===
+- Goodbye!
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=ggit add .[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master
