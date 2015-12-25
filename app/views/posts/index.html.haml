@@ -2,4 +2,4 @@
   %h2= post.title
   %p
     Published at:
-    = post.content
+    = time_ago_in_words(post.created_at)
