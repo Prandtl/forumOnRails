@@ -571,4 +571,260 @@ group [12C, :test do
 group [12C, [5C [33mdo[m
   [34m# Call 'byebug' anywhere in the code to stop execution and get a debugger console[m
   gem [1C[31mbyebug[m[40;156H1[32;11H[?12l[?25h[40;1H[K[32;10H[?25l[40;152H32,10[9CTop[32;10H[?12l[?25h[?25l[40;152H[K[40;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Gemfile" 47L, 1500C written
-[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                                                              
+[?1l>[?12l[?25h[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=vim Gemfile[11Dheroku logs --tail[11Dopen       [11Dgit push heroku master[18Dcommit -m "crea[2Cd Procfile"[32D[4Cadd .                       [23Dcommit -m "created Procfile"[28Dpush heroku mas[2Cr          [10D[22Dheroku open           [11D        h  bbundle update[?1l>
+]2;bundle update]1;bundleFetching gem metadata from https://rubygems.org/...........
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies.....
+Using rake 10.4.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.8.3
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.0.0
+Using rack 1.6.4
+Using mime-types 2.99
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using bundler 1.11.2
+Using byebug 8.2.1
+Using coffee-script-source 1.10.0
+Using execjs 2.6.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.0
+Using multi_json 1.11.2
+Using nifty-generators 0.4.6
+Using pg 0.18.4
+[32mInstalling puma 2.15.3 with native extensions[0m
+Using sass 3.4.20
+Using tilt 2.0.1
+Using spring 1.6.1
+Using rdoc 4.2.1
+Using tzinfo 1.2.2
+Using nokogiri 1.6.7.1
+Using rack-test 0.6.3
+Using mail 2.6.3
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 2.7.2
+Using sprockets 3.5.2
+Using sdoc 0.4.1
+Using activesupport 4.2.3
+Using loofah 2.0.3
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.6
+Using activemodel 4.2.3
+Using jbuilder 2.3.2
+Using rails-html-sanitizer 1.0.2
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.3
+Using activerecord 4.2.3
+Using actionview 4.2.3
+Using actionpack 4.2.3
+Using actionmailer 4.2.3
+Using railties 4.2.3
+Using sprockets-rails 3.0.0
+Using coffee-rails 4.1.1
+Using jquery-rails 4.0.5
+Using rails 4.2.3
+Using sass-rails 5.0.4
+Using web-console 2.2.1
+Using turbolinks 2.5.3
+[32mBundle updated![0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=ggit add .[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=ggit commit -m "using puma"[?1l>
+]2;git commit -m "using puma"]1;git[master e9e12f0] using puma
+ 3 files changed, 259 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master› [00m[00m
+╰─[1m$[0m [K[?1h=ggit push g heroku master[?1l>
+]2;git push heroku master]1;gitCounting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 4.79 KiB | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Using set buildpack heroku/ruby[K
+remote: -----> Ruby app detected[K
+remote: -----> Compiling Ruby/Rails[K
+remote: -----> Using Ruby version: ruby-2.0.0[K
+remote: -----> Installing dependencies using bundler 1.9.7[K
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment[K
+remote:        Fetching gem metadata from https://rubygems.org/...........[K
+remote:        Fetching version metadata from https://rubygems.org/...[K
+remote:        Fetching dependency metadata from https://rubygems.org/..[K
+remote:        Rubygems 2.0.14.1 is not threadsafe, so your gems must be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.[K
+remote:        Using rake 10.4.2[K
+remote:        Using i18n 0.7.0[K
+remote:        Using json 1.8.3[K
+remote:        Using minitest 5.8.3[K
+remote:        Using thread_safe 0.3.5[K
+remote:        Using tzinfo 1.2.2[K
+remote:        Using activesupport 4.2.3[K
+remote:        Using builder 3.2.2[K
+remote:        Using erubis 2.7.0[K
+remote:        Using mini_portile2 2.0.0[K
+remote:        Using nokogiri 1.6.7.1[K
+remote:        Using rails-deprecated_sanitizer 1.0.3[K
+remote:        Using rails-dom-testing 1.0.7[K
+remote:        Using loofah 2.0.3[K
+remote:        Using rails-html-sanitizer 1.0.2[K
+remote:        Using actionview 4.2.3[K
+remote:        Using rack 1.6.4[K
+remote:        Using rack-test 0.6.3[K
+remote:        Using actionpack 4.2.3[K
+remote:        Using globalid 0.3.6[K
+remote:        Using activejob 4.2.3[K
+remote:        Using mime-types 2.99[K
+remote:        Using mail 2.6.3[K
+remote:        Using actionmailer 4.2.3[K
+remote:        Using activemodel 4.2.3[K
+remote:        Using arel 6.0.3[K
+remote:        Using activerecord 4.2.3[K
+remote:        Using coffee-script-source 1.10.0[K
+remote:        Using execjs 2.6.0[K
+remote:        Using coffee-script 2.4.1[K
+remote:        Using thor 0.19.1[K
+remote:        Using railties 4.2.3[K
+remote:        Using coffee-rails 4.1.1[K
+remote:        Using concurrent-ruby 1.0.0[K
+remote:        Using multi_json 1.11.2[K
+remote:        Using jbuilder 2.3.2[K
+remote:        Using jquery-rails 4.0.5[K
+remote:        Using nifty-generators 0.4.6[K
+remote:        Using pg 0.18.4[K
+remote:        Installing puma 2.15.3[K
+remote:        Using bundler 1.9.7[K
+remote:        Using sprockets 3.5.2[K
+remote:        Using sprockets-rails 3.0.0[K
+remote:        Using rails 4.2.3[K
+remote:        Using rdoc 4.2.1[K
+remote:        Using sass 3.4.20[K
+remote:        Using tilt 2.0.1[K
+remote:        Using sass-rails 5.0.4[K
+remote:        Using sdoc 0.4.1[K
+remote:        Using turbolinks 2.5.3[K
+remote:        Using uglifier 2.7.2[K
+remote:        Bundle complete! 14 Gemfile dependencies, 51 gems now installed.[K
+remote:        Gems in the groups development and test were not installed.[K
+remote:        Bundled gems are installed into ./vendor/bundle.[K
+remote:        Bundle completed (3.62s)[K
+remote:        Cleaning up the bundler cache.[K
+remote: -----> Preparing app for Rails asset pipeline[K
+remote:        Running: rake assets:precompile[K
+remote:        Asset precompilation completed (4.23s)[K
+remote:        Cleaning assets[K
+remote:        Running: rake assets:clean[K
+remote: 
+remote: ###### WARNING:[K
+remote:        Include 'rails_12factor' gem to enable all platform features[K
+remote:        See https://devcenter.heroku.com/articles/rails-integration-gems for more information.[K
+remote: 
+remote: ###### WARNING:[K
+remote:        You have not declared a Ruby version in your Gemfile.[K
+remote:        To set your Ruby version add this line to your Gemfile:[K
+remote:        ruby '2.0.0'[K
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.[K
+remote: 
+remote: 
+remote: -----> Discovering process types[K
+remote:        Procfile declares types     -> web[K
+remote:        Default types for buildpack -> console, rake, worker[K
+remote: 
+remote: -----> Compressing... done, 28.4MB[K
+remote: -----> Launching... done, v7[K
+remote:        https://murmuring-earth-3019.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy.... done.[K
+To https://git.heroku.com/murmuring-earth-3019.git
+   21de9f8..e9e12f0  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=hheroku open[?1l>
+]2;heroku open]1;herokuOpening murmuring-earth-3019... done
+[1m[7m%[27m[1m[0m                                                                                                                                                                         ]2;prandtl@XANADU: ~/Documents/HerokuForum]1;..s/HerokuForum[0m[27m[24m[J╭─[1m[32mprandtl@XANADU[00m [1m[34m ~/Documents/HerokuForum[00m  [33m‹master*› [00m[00m
+╰─[1m$[0m [K[?1h=Gtk-Message: Failed to load module "pantheon-filechooser-module"
+[25146:25146:1225/110828:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[25146:25146:1225/110828:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[25146:25146:1225/110828:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[25146:25146:1225/110828:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+[25146:25146:1225/110828:ERROR:browser_main_loop.cc(231)] GTK theme error: Unable to locate theme engine in module_path: "pixmap",
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Created new window in existing browser session.
+heroku open[11Dgit push heroku master[18Dcommit -m "using puma"[22Dadd .                 [17D[9Dbundle update[13Dvim Gemfile  [11Dheroku logs --tail[11Dopen       logs --tail[?1l>
+]2;heroku logs --tail]1;heroku[36m2015-12-25T05:58:08.790771+00:00 heroku[api]:[0m Enable Logplex by prandtl211@gmail.com
+[36m2015-12-25T05:58:08.790771+00:00 heroku[api]:[0m Release v2 created by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.091207+00:00 heroku[api]:[0m Set LANG, RAILS_ENV, RACK_ENV, SECRET_KEY_BASE, RAILS_SERVE_STATIC_FILES config vars by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.091207+00:00 heroku[api]:[0m Release v3 created by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.575563+00:00 heroku[api]:[0m Attach DATABASE resource by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.575563+00:00 heroku[api]:[0m Release v4 created by prandtl211@gmail.com
+[36m2015-12-25T05:59:35.947657+00:00 heroku[api]:[0m Scale to web=1 by prandtl211@gmail.com
+[36m2015-12-25T05:59:36.038584+00:00 heroku[api]:[0m Deploy d8fa1b9 by prandtl211@gmail.com
+[36m2015-12-25T05:59:36.038584+00:00 heroku[api]:[0m Release v5 created by prandtl211@gmail.com
+[33m2015-12-25T05:59:36.349470+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T05:59:36.349479+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[32m2015-12-25T05:59:37.785412+00:00 heroku[web.1]:[0m Starting process with command `bin/rails server -p 3415 -e production`
+[32m2015-12-25T05:59:40.507137+00:00 heroku[web.1]:[0m State changed from starting to up
+[32m2015-12-25T05:59:40.441546+00:00 app[web.1]:[0m [2015-12-25 05:59:40] INFO  WEBrick 1.3.1
+[32m2015-12-25T05:59:40.441574+00:00 app[web.1]:[0m [2015-12-25 05:59:40] INFO  ruby 2.0.0 (2015-12-16) [x86_64-linux]
+[32m2015-12-25T05:59:40.441926+00:00 app[web.1]:[0m [2015-12-25 05:59:40] INFO  WEBrick::HTTPServer#start: pid=3 port=3415
+[35m2015-12-25T05:59:44.518321+00:00 heroku[router]:[0m at=info method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=d959d518-285e-4229-9108-959a75679165 fwd="212.193.78.147" dyno=web.1 connect=1ms service=201ms status=404 bytes=1829
+[35m2015-12-25T05:59:44.787260+00:00 heroku[router]:[0m at=info method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=4cc97cc9-fca7-41e3-8849-47b359cd127d fwd="212.193.78.147" dyno=web.1 connect=0ms service=3ms status=200 bytes=228
+[36m2015-12-25T06:02:36.485119+00:00 heroku[api]:[0m Deploy 21de9f8 by prandtl211@gmail.com
+[36m2015-12-25T06:02:36.485155+00:00 heroku[api]:[0m Release v6 created by prandtl211@gmail.com
+[33m2015-12-25T06:02:36.602434+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T06:02:36.602444+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[32m2015-12-25T06:02:36.594702+00:00 heroku[web.1]:[0m State changed from up to starting
+[32m2015-12-25T06:02:37.788312+00:00 heroku[web.1]:[0m Stopping all processes with SIGTERM
+[32m2015-12-25T06:02:38.063286+00:00 app[web.1]:[0m [2015-12-25 06:02:38] FATAL SignalException: SIGTERM
+[32m2015-12-25T06:02:38.063290+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+[32m2015-12-25T06:02:38.063293+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+[32m2015-12-25T06:02:38.063293+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+[32m2015-12-25T06:02:38.063294+00:00 app[web.1]:[0m 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+[32m2015-12-25T06:02:38.063295+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+[32m2015-12-25T06:02:38.063323+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:75:in `server'
+[32m2015-12-25T06:02:38.063324+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+[32m2015-12-25T06:02:38.063325+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands.rb:17:in `<top (required)>'
+[32m2015-12-25T06:02:38.063326+00:00 app[web.1]:[0m 	bin/rails:9:in `<main>'
+[32m2015-12-25T06:02:38.063295+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'
+[32m2015-12-25T06:02:38.063371+00:00 app[web.1]:[0m [2015-12-25 06:02:38] INFO  WEBrick::HTTPServer#start done.
+[32m2015-12-25T06:02:38.063320+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/server.rb:80:in `start'
+[32m2015-12-25T06:02:38.094127+00:00 app[web.1]:[0m => Booting WEBrick
+[32m2015-12-25T06:02:38.063322+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+[32m2015-12-25T06:02:38.094130+00:00 app[web.1]:[0m => Rails 4.2.3 application starting in production on http://0.0.0.0:3415
+[32m2015-12-25T06:02:38.063323+00:00 app[web.1]:[0m 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.3/lib/rails/commands/commands_tasks.rb:75:in `tap'
+[32m2015-12-25T06:02:38.063325+00:00 app[web.1]:[0m 	bin/rails:9:in `require'
+[32m2015-12-25T06:02:38.063330+00:00 app[web.1]:[0m [2015-12-25 06:02:38] INFO  going to shutdown ...
+[32m2015-12-25T06:02:38.094133+00:00 app[web.1]:[0m => Ctrl-C to shutdown server
+[32m2015-12-25T06:02:38.094132+00:00 app[web.1]:[0m => Run `rails server -h` for more startup options
+[32m2015-12-25T06:02:38.094133+00:00 app[web.1]:[0m Exiting
+[32m2015-12-25T06:02:38.863945+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[32m2015-12-25T06:02:38.684377+00:00 heroku[web.1]:[0m Process exited with status 143
+[32m2015-12-25T06:02:41.634826+00:00 app[web.1]:[0m bundler: command not found: puma
+[32m2015-12-25T06:02:41.634840+00:00 app[web.1]:[0m Install missing gem executables with `bundle install`
+[32m2015-12-25T06:02:42.586977+00:00 heroku[web.1]:[0m Process exited with status 127
+[32m2015-12-25T06:02:44.292461+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
+[32m2015-12-25T06:02:45.898435+00:00 app[web.1]:[0m bundler: command not found: puma
+[32m2015-12-25T06:02:45.898456+00:00 app[web.1]:[0m Install missing gem executables with `bundle install`
+[32m2015-12-25T06:02:46.549668+00:00 heroku[web.1]:[0m Process exited with status 127
+[35m2015-12-25T06:03:01.853828+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=04a24fdb-a76d-4785-a0ea-64d2fbb750a1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:02.947475+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=b2f7059e-c443-4fb6-93ac-72ea7d1a7057 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:07.553070+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=9fadb105-9ac2-4caa-95bb-ac4d7627afd6 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:08.023067+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=89d02111-2c64-4dd9-ad42-7e37297fbe3b fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:08.402690+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=59e4a9d4-3790-4d82-a8e4-fb46167424e1 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:08.724101+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=e6562506-a8c8-421b-9faf-eed4ccaef5ec fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:09.020975+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=7b640722-4a84-4728-8966-ac9e3cd3f65c fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:09.257062+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=b0b11136-b916-4675-96b6-1949cd0b4e55 fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:03:10.264160+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=murmuring-earth-3019.herokuapp.com request_id=1ef976db-7418-4edf-ac13-f4650ad7f9cc fwd="212.193.78.147" dyno= connect= service= status=503 bytes=
+[35m2015-12-25T06:04:27.610952+00:00 heroku[router]:[0m at=error code=H10 desc="App crashed" method=GET path="/" host=murmuring-earth-3019.herokuapp.com request_id=c2ec6ee7-659d-4672-9689-870802f35ee5 fwd="212.193.78.147,66.102.9.116" dyno= connect= service= status=503 bytes=
+[33m2015-12-25T06:06:43.210869+00:00 heroku[slug-compiler]:[0m Slug compilation started
+[33m2015-12-25T06:06:43.210879+00:00 heroku[slug-compiler]:[0m Slug compilation finished
+[36m2015-12-25T06:06:43.077523+00:00 heroku[api]:[0m Deploy e9e12f0 by prandtl211@gmail.com
+[36m2015-12-25T06:06:43.077523+00:00 heroku[api]:[0m Release v7 created by prandtl211@gmail.com
+[32m2015-12-25T06:06:43.284103+00:00 heroku[web.1]:[0m State changed from crashed to starting
+[32m2015-12-25T06:06:45.086967+00:00 heroku[web.1]:[0m Starting process with command `bundle exec puma -C config/puma.rb`
