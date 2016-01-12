@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #This one is needed for devise
+  config.action_mailer.default_url_options = { :host => 'murmuring-earth-3019.herokuapp.com' }
 end
