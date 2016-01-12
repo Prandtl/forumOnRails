@@ -6,7 +6,13 @@
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
 %body
-  %p.notice= notice
-  %p.alert= alert
+  %nav
+    #logo
+      %p Prandtl'y Forum
 
-  =yield
+  .wrapper
+    %p.notice= notice
+    %p.alert= alert
+
+  .wrapper
+    =yield
