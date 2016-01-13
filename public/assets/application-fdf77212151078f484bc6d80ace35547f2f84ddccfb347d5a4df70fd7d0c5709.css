@@ -10,22 +10,24 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
- */
 
-body{
+
+ */
+/* line 18, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.wrapper{
+/* line 22, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.wrapper {
   width: 60%;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.main_header{
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
+/* line 28, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.main_header {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
