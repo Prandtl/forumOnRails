@@ -7,6 +7,9 @@
   padding: 2em 5%;
   border-radius: 0 0 .5em .5em;
   .post{
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #d1d1d1;
     .post_name{
       margin: 0;
       a{
@@ -25,4 +28,22 @@
       }
     }
   }
+}
+
+#post_content{
+    background: white;
+    padding: 2em 5%;
+    border-radius: 0 0 .5em .5em;
+    h1{
+      font-weight: 100;
+      color: #397CAC;
+      font-size: 2em;
+      margin-top: 0;
+    }
+    p{
+      color: #68696D;
+      font-size: 0.95rem;
+      font-weight: 100;
+      line-height: 1.25;
+    }
 }
