@@ -1,0 +1,149 @@
+/* line 5, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts {
+  background: white;
+  padding: 2em 5%;
+  border-radius: 0 0 .5em .5em;
+}
+/* line 9, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post {
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+/* line 13, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_name {
+  margin: 0;
+}
+/* line 15, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_name a {
+  color: #397CAC;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.25rem;
+}
+/* line 22, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_info {
+  margin-top: .25rem;
+  font-size: 0.9rem;
+  color: #68696D;
+}
+/* line 26, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_info .post_autor {
+  font-style: italic;
+}
+
+/* line 33, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content {
+  background: white;
+  padding: 2em 5%;
+  border-radius: 0 0 .5em .5em;
+}
+/* line 37, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content h1 {
+  font-weight: 100;
+  color: #397CAC;
+  font-size: 2em;
+  margin-top: 0;
+}
+/* line 43, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content p {
+  color: #68696D;
+  font-size: 0.95rem;
+  font-weight: 100;
+  line-height: 1.25;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  min-width: 250px;
+  background-color: #dee2e2;
+}
+
+/* line 24, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  width: 60%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 30, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+header {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* line 35, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+header #logo p {
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+}
+
+/* line 43, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav {
+  text-align: center;
+}
+
+/* line 47, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 54, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav li {
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  display: inline;
+  border-bottom: 1px solid black;
+  transition: 3s background-color;
+}
+
+/* line 63, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+/* line 69, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav li:hover > a {
+  background-color: #C0DEE0;
+}
+
+/* line 73, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav a:active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 745px) {
+  /* line 80, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+  nav li {
+    width: 8em;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+  }
+}
