@@ -16,6 +16,8 @@
 
 body{
   font-family: 'Roboto Condensed', sans-serif;
+  min-width: 250px;
+  background-color: #dee2e2;
 }
 
 .wrapper{
@@ -24,8 +26,61 @@ body{
   margin: 0 auto;
 }
 
-.main_header{
+header{
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+    #logo{
+      p{
+        font-weight: bold;
+        letter-spacing: -1px;
+        font-size: 1.2rem;
+      }
+    }
+}
+
+nav{
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+  background-color: #444;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  display: inline;
+  border-bottom: 1px solid black;
+  transition: 3s background-color;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+nav li:hover > a {
+  background-color: #C0DEE0;
+}
+
+nav a:active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and ( min-width: 745px ) {
+  nav li {
+    width: 8em;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+  }
 }

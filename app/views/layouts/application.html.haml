@@ -3,6 +3,7 @@
 %head
   %title Prandtl'y forum
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+  %link{rel: 'stylesheet',href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css', type:'text/css'}
   %link{ rel: 'stylesheet',href: 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic&subset=latin,cyrillic', type:'text/css'}
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
@@ -11,11 +12,14 @@
     %p.notice= notice
     %p.alert= alert
 
-  %header.main_header
+  %header
     #logo
       %p Prandtl'y Forum
-    #controls
-      = link_to "New post", new_post_path
+  %nav
+    %ul
+      %li
+        = link_to "New post", new_post_path
+
 
   .wrapper
     =yield
