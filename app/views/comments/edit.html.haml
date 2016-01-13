@@ -1,0 +1,4 @@
+%h1 Edit comment
+= simple_form_for([@post,@comment]) do |f|
+  = f.input :comment.comment
+  = f.submit
