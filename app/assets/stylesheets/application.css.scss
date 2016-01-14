@@ -90,3 +90,13 @@ nav a:active {
     display: inline-block;
   }
 }
+
+@media handheld {
+    nav li {
+      width: 8em;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+    }
+}
