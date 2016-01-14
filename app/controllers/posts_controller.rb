@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   before_action :find_post, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, except: [:index,:show]
+  before_action :authenticate_user!, except: [:index, :show]
   def index
     @posts = Post.all.order("created_at DESC")
   end
@@ -15,6 +15,19 @@ class PostsController < ApplicationController
 
   def create
     @post = current_user.posts.build(post_params)
+
+    if @post.title.blank?
+      flash.now[:alert] = 'You can\'t have a post without a title.'
+      render 'new'
+      return
+    end
+
+
+    if @post.content.blank?
+      flash.now[:notice] = 'You should put some content in your post.'
+      render 'new'
+      return
+    end
 
     if @post.save
       redirect_to @post
