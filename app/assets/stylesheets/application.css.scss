@@ -81,7 +81,7 @@ nav a:active {
   cursor: default;
 }
 
-@media screen and ( min-width: 745px ) {
+@media screen and ( min-width: 420px ) {
   nav li {
     width: 8em;
     border-bottom: none;
@@ -89,14 +89,4 @@ nav a:active {
     line-height: 50px;
     display: inline-block;
   }
-}
-
-@media handheld {
-    nav li {
-      width: 8em;
-      border-bottom: none;
-      height: 50px;
-      line-height: 50px;
-      display: inline-block;
-    }
 }
