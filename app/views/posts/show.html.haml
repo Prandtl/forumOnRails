@@ -3,7 +3,7 @@
   %p= @post.content
 
   #comments
-    %h2= @post.comments.count
+    %h2= "Comments for this post:"+@post.comments.count.to_s
     =render @post.comments
 
     %h3 Make a comment
