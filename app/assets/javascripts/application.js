@@ -18,4 +18,4 @@
 setTimeout(function() {
     $(".notice").fadeOut();
     $(".alert").fadeOut();
-  }, 3000);
+  }, 2000);
