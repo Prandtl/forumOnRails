@@ -22,7 +22,6 @@ class PostsController < ApplicationController
       return
     end
 
-
     if @post.content.blank?
       flash.now[:notice] = 'You should put some content in your post.'
       render 'new'
@@ -37,9 +36,25 @@ class PostsController < ApplicationController
   end
 
   def edit
+    if current_user.id!=@post.user_id
+      flash[:notice] = 'This is someone else\'s post. You cannot change it'
+      redirect_to @post
+    end
   end
 
   def update
+    if post_params[:title].blank?
+      flash.now[:alert] = 'You can\'t have a post without a title.'
+      render 'edit'
+      return
+    end
+
+    if post_params[:content].blank?
+      flash.now[:notice] = 'You should put some content in your post.'
+      render 'edit'
+      return
+    end
+
     if @post.update(post_params)
       redirect_to @post
     else

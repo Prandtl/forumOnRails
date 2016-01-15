@@ -2,13 +2,12 @@
   %h1= @post.title
   %p= @post.content
 
+  %span.post_control.edit= link_to "Edit", edit_post_path(@post)
+  %span.post_control.delete= link_to "Delete", post_path(@post), method: :delete, data: {confirm: "Are you sure you wanna delete the post?"}
+
   #comments
-    %h2= "Comments for this post:"+@post.comments.count.to_s
+    %h3= "Comments for this post:"+@post.comments.count.to_s
     =render @post.comments
 
     %h3 Make a comment
     =render "comments/form"
-
-  = link_to "Edit", edit_post_path(@post)
-  = link_to "Delete", post_path(@post), method: :delete, data: {confirm: "Are you sure you wanna delete the post?"}
-  = link_to "Home", root_path
