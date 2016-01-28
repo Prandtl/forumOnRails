@@ -1,0 +1,370 @@
+/* line 5, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts {
+  background: white;
+  padding: 2em 5%;
+  border-radius: 0 0 .5em .5em;
+}
+/* line 9, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post {
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+/* line 13, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_name {
+  margin: 0;
+}
+/* line 15, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_name a {
+  color: #397CAC;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.25rem;
+}
+/* line 22, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_info {
+  margin-top: .25rem;
+  font-size: 0.9rem;
+  color: #68696D;
+}
+/* line 26, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#posts .post .post_info .post_autor {
+  font-style: italic;
+}
+
+/* line 33, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content {
+  background: white;
+  padding: 2em 5%;
+  border-radius: 0 0 .5em .5em;
+}
+/* line 37, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content h1 {
+  font-weight: 100;
+  color: #397CAC;
+  font-size: 2em;
+  margin-top: 0;
+}
+/* line 43, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content p {
+  color: #68696D;
+  font-size: 0.95rem;
+  font-weight: 100;
+  line-height: 1.25;
+}
+/* line 50, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments .comment {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+/* line 54, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments .comment .content {
+  width: 75%;
+  float: left;
+}
+/* line 58, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments .comment .buttons {
+  width: 25%;
+  float: left;
+  font-size: .8em;
+  text-align: right;
+  padding-top: 1.5em;
+}
+/* line 64, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments .comment .buttons a {
+  color: #397CAC;
+  border: 1px solid #397CAC;
+  padding: .5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  margin-right: 2%;
+}
+/* line 73, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments .comment .comment_content {
+  margin: 0;
+  padding: 0;
+}
+/* line 77, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments .comment .comment_author {
+  color: #397CAC;
+  margin-top: .5rem;
+  font-size: 0.6em;
+  font-weight: 700;
+}
+/* line 84, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments input[type="submit"] {
+  background: #397CAC;
+  border: none;
+  color: white;
+  font-weight: 100;
+  padding: .5em 1em;
+  border-radius: .2em;
+}
+/* line 92, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#post_content #comments textarea {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #d1d1d1;
+  border-radius: .2em;
+  margin: 1em 0;
+}
+
+/* line 103, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#new_post .buttons {
+  width: 25%;
+  float: left;
+  font-size: .8em;
+  text-align: right;
+  padding-top: 1.5em;
+}
+/* line 109, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#new_post .buttons a {
+  color: #397CAC;
+  border: 1px solid #397CAC;
+  padding: .5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  margin-right: 2%;
+}
+/* line 118, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#new_post .post_title {
+  margin: 0;
+  padding: 0;
+}
+/* line 122, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#new_post .post_content {
+  margin: 0;
+  padding: 0;
+}
+/* line 126, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#new_post input[type="submit"] {
+  background: #397CAC;
+  border: none;
+  color: white;
+  font-weight: 100;
+  padding: .5em 1em;
+  border-radius: .2em;
+}
+/* line 134, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+#new_post textarea {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #d1d1d1;
+  border-radius: .2em;
+  margin: 1em 0;
+}
+
+/* line 144, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.edit_post .buttons {
+  width: 25%;
+  float: left;
+  font-size: .8em;
+  text-align: right;
+  padding-top: 1.5em;
+}
+/* line 150, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.edit_post .buttons a {
+  color: #397CAC;
+  border: 1px solid #397CAC;
+  padding: .5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  margin-right: 2%;
+}
+/* line 159, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.edit_post .post_title {
+  margin: 0;
+  padding: 0;
+}
+/* line 163, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.edit_post .post_content {
+  margin: 0;
+  padding: 0;
+}
+/* line 167, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.edit_post input[type="submit"] {
+  background: #397CAC;
+  border: none;
+  color: white;
+  font-weight: 100;
+  padding: .5em 1em;
+  border-radius: .2em;
+}
+/* line 175, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.edit_post textarea {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #d1d1d1;
+  border-radius: .2em;
+  margin: 1em 0;
+}
+
+/* line 184, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.post_control {
+  padding-top: 200;
+}
+/* line 186, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/posts.scss */
+.post_control a {
+  color: #397CAC;
+  border: 1px solid #397CAC;
+  padding: .5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  margin-right: 2%;
+  margin-top: 5rem;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 17, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  min-width: 250px;
+  background-color: #dee2e2;
+}
+
+/* line 23, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  width: 60%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 29, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+header {
+  width: 60%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* line 34, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+header #logo p {
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+}
+/* line 40, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+header #logo a {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 49, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav {
+  text-align: center;
+}
+
+/* line 53, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 60, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav li {
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  display: inline;
+  border-bottom: 1px solid black;
+  transition: 3s background-color;
+}
+
+/* line 69, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+/* line 75, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav li:hover > a {
+  background-color: #C0DEE0;
+}
+
+/* line 79, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+nav a:active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 420px) {
+  /* line 86, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+  nav li {
+    width: 8em;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+  }
+}
+/* line 95, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.notice {
+  margin-top: 0;
+  padding-left: 5%;
+  position: absolute;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fde073;
+  text-align: left;
+  line-height: 2;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+}
+
+/* line 112, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.alert {
+  margin-top: 0;
+  padding-left: 5%;
+  position: absolute;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fc8e88;
+  text-align: left;
+  line-height: 2.5;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+}
+
+/* line 129, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.form-inputs {
+  max-width: 500px;
+}
+/* line 132, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.form-inputs div.input {
+  clear: both;
+  text-align: right;
+}
+/* line 135, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.form-inputs div.input label {
+  float: left;
+}
+/* line 140, /home/prandtl/Documents/HerokuForum/app/assets/stylesheets/application.css.scss */
+.form-inputs .hint {
+  font-size: 0.75em;
+}

@@ -25,6 +25,12 @@ body{
   margin: 0 auto;
 }
 
+.white_back{
+  background: white;
+  padding: 2em 5%;
+  border-radius: 0 0 .5em .5em;
+}
+
 header{
     width: 60%;
     max-width: 1000px;
@@ -123,4 +129,20 @@ nav a:active {
   -webkit-box-shadow: 0 0 5px black;
   -moz-box-shadow:    0 0 5px black;
   box-shadow:         0 0 5px black;
+}
+
+.form-inputs
+{
+  max-width: 500px;
+  div.input{
+    clear:both;
+    text-align: right;
+    label{
+      float: left;
+
+    }
+  }
+  .hint{
+    font-size: 0.75em;
+  }
 }
