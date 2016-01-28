@@ -1,5 +1,6 @@
 #post_content
   %h1= @post.title
+  .author= "author: "+@post.user.username
   %p= @post.content
 
   %span.post_control.edit= link_to "Edit", edit_post_path(@post)

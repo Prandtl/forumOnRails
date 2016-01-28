@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.author{
+  color: #68696D
+}
+
 #posts{
   .post{
     margin: 0.5em 0;
@@ -33,10 +37,11 @@
     color: #397CAC;
     font-size: 2em;
     margin-top: 0;
+    margin-bottom: 0;
   }
   p{
-    color: #68696D;
-    font-size: 0.95rem;
+    color: black;
+    font-size: 1rem;
     font-weight: 100;
     line-height: 1.25;
   }
