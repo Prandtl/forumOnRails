@@ -4,5 +4,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  resources :users, :only => [:show]
+
   root 'posts#index'
 end

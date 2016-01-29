@@ -1,0 +1,9 @@
+%h1= @user.username + " user page"
+.user
+  .name= "name: " + @user.username
+  .email
+    email:
+    = mail_to @user.email
+  .registered_for
+    registered on site for
+    = time_ago_in_words(@user.created_at)
