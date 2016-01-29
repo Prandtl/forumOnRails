@@ -1,9 +1,22 @@
 %h1= @user.username + " user page"
 .user
-  .name= "name: " + @user.username
+  .name
+    Name
+    = @user.username
   .email
-    email:
+    Email:
     = mail_to @user.email
   .registered_for
-    registered on site for
+    Registered on site for
     = time_ago_in_words(@user.created_at)
+  .userstatus
+    Userstatus:
+    -if @user.userstatus == 0
+      user
+    -if @user.userstatus == 1
+      admin
+    -if @user.userstatus == -1
+      banned
+  .admintoolz
+    -if (current_user != nil && current_user.userstatus == 1)
+      Oh snap, admin is here!
