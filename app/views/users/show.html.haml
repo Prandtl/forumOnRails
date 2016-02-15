@@ -19,4 +19,9 @@
       banned
   .admintoolz
     -if (current_user != nil && current_user.userstatus == 1)
-      Oh snap, admin is here!
+      -if (@user.userstatus == -1)
+        = link_to "Unban user", '/users/' + @user.id.to_s + '/unban', :method => 'post'
+      -if (@user.userstatus == 0)
+        = link_to "Ban user", '/users/' + @user.id.to_s + '/ban', :method => 'post'
+      -if (@user.userstatus == 1)
+        You can't ban an admin.

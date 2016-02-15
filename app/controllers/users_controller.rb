@@ -1,22 +1,23 @@
 class UsersController < ApplicationController
+  before_action :find_user, only: [:show, :ban, :unban]
   def show
-    find_user
   end
 
   def ban
-    find_user
     if (current_user.userstatus == 1 && @user.userstatus !=1)
       @user.userstatus = -1
       @user.save
     end
+    redirect_to @user
   end
   helper_method :ban
 
   def unban
-    if (current_user.userstatus == 1 && @user.userstatus == 0)
+    if (current_user.userstatus == 1 && @user.userstatus == -1)
       @user.userstatus = 0
       @user.save
     end
+    redirect_to @user
   end
   helper_method :unban
 
