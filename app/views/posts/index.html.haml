@@ -8,4 +8,4 @@
         = time_ago_in_words(post.created_at)
         by
         %span.post_autor
-          = post.user.username
+          = link_to post.user.username, post.user
