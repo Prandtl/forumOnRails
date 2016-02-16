@@ -1,3 +1,4 @@
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <h2>Sign up</h2>
 
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -11,6 +12,7 @@
   </div>
 
   <div class="form-actions">
+    <div class="g-recaptcha" data-sitekey="6LflaRgTAAAAAAIadyfxdtc8Po4JStGUFOoHnnBa"></div>
     <%= f.button :submit, "Sign up" %>
   </div>
 <% end %>
