@@ -15,6 +15,7 @@ gem 'haml','~> 4.0.5'
 gem 'simple_form','~> 3.0.2'
 gem 'devise','~> 3.4.1'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'recaptcha', :require => 'recaptcha/rails'
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
