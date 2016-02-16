@@ -6,10 +6,17 @@ class Users::SessionsController < Devise::SessionsController
   #   super
   # end
 
-  # POST /resource/sign_in
-  # def create
-  #   super
-  # end
+  def create
+    if verify_recaptcha
+      super
+    else
+      self.resource = resource_class.new(sign_in_params)
+      clean_up_passwords(resource)
+      flash.now[:alert] = "There was an error with the recaptcha code below. Please enter captcha again."
+      flash.delete :recaptcha_error
+      render :new
+    end
+  end
 
   # DELETE /resource/sign_out
   # def destroy
