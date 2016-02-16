@@ -16,6 +16,12 @@ class PostsController < ApplicationController
   def create
     @post = current_user.posts.build(post_params)
 
+    if (current_user.userstatus == -1)
+      flash.now[:alert] = 'You are banned, you can not create a post.'
+      render 'new'
+      return
+    end
+
     if @post.title.blank?
       flash.now[:alert] = 'You can\'t have a post without a title.'
       render 'new'
@@ -36,13 +42,20 @@ class PostsController < ApplicationController
   end
 
   def edit
-    if current_user.id!=@post.user_id
+    if (current_user.id!=@post.user_id && current_user.userstatus != 1)
       flash[:notice] = 'This is someone else\'s post. You cannot change it'
       redirect_to @post
+      return
     end
   end
 
   def update
+    if (current_user.userstatus == -1)
+      flash.now[:alert] = 'You are banned, you are not allowed to modify posts.'
+      render 'new'
+      return
+    end
+
     if post_params[:title].blank?
       flash.now[:alert] = 'You can\'t have a post without a title.'
       render 'edit'
@@ -64,7 +77,7 @@ class PostsController < ApplicationController
 
   def destroy
     @post.destroy
-    redirect_to root_path
+    redirect_to root_paths
   end
 
   private
